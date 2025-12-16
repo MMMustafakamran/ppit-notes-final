@@ -1,0 +1,559 @@
+Professional Code of Conduct
+PPIT Fall 21 - Lecture Slides (Weeks 5-8)
+
+================================================================================
+INTRODUCTION TO PROFESSIONAL CODE OF CONDUCT
+================================================================================
+
+What is Professional Ethics?
+----------------------------
+Professional ethics refers to the moral principles and standards that guide the behavior of professionals in their work. For computing professionals, this includes:
+
+- Ethical decision-making in software development
+- Responsibility to clients, users, and society
+- Maintaining professional integrity and competence
+- Respecting privacy and confidentiality
+- Ensuring the safety and security of systems
+
+Why Professional Ethics Matter in Computing
+-------------------------------------------
+- Computing professionals have significant impact on society
+- Software affects millions of users daily
+- Ethical failures can cause harm, discrimination, or privacy violations
+- Professional reputation and trust depend on ethical behavior
+- Legal compliance alone is not sufficient; ethical behavior goes beyond legal requirements
+
+[Image: Diagram showing the relationship between law, ethics, and professional codes - with ethics being broader than law, and professional codes being specific applications of ethics]
+
+Key Concepts
+------------
+1. Professionalism: Conducting oneself with competence, integrity, and responsibility
+2. Code of Ethics: Written guidelines that define acceptable professional behavior
+3. Ethical Dilemmas: Situations where competing values or principles conflict
+4. Whistleblowing: Reporting unethical or illegal activities within an organization
+5. Conflict of Interest: Situations where personal interests conflict with professional duties
+
+================================================================================
+MAJOR PROFESSIONAL CODES OF CONDUCT
+================================================================================
+
+ACM Code of Ethics and Professional Conduct
+-------------------------------------------
+The Association for Computing Machinery (ACM) provides one of the most widely recognized codes for computing professionals.
+
+General Ethical Principles:
+1. Contribute to society and human well-being
+2. Avoid harm to others
+3. Be honest and trustworthy
+4. Be fair and take action not to discriminate
+5. Respect the work required to produce new ideas, inventions, creative works, and computing artifacts
+6. Respect privacy
+7. Honor confidentiality
+
+Professional Responsibilities:
+- Strive to achieve high quality in both the processes and products of professional work
+- Maintain high standards of professional competence, conduct, and ethical practice
+- Know and respect existing rules pertaining to professional work
+- Accept and provide appropriate professional review
+- Give comprehensive and thorough evaluations of computer systems and their impacts
+- Honor contracts, agreements, and assigned responsibilities
+- Improve public understanding of computing and its consequences
+- Access computing and communication resources only when authorized
+
+Leadership Principles:
+- Ensure that the public good is the central concern during all professional computing work
+- Articulate, encourage acceptance of, and evaluate fulfillment of social responsibilities
+- Manage personnel and resources to enhance the quality of working life
+- Articulate and apply policies that support the conduct of an organization
+- Create opportunities for members of the organization to grow as professionals
+- Use care when modifying or retiring systems
+- Recognize and take special care of systems that become integrated into the infrastructure of society
+
+IEEE Code of Ethics
+-------------------
+The Institute of Electrical and Electronics Engineers (IEEE) provides ethical guidelines for engineers and computing professionals.
+
+Fundamental Principles:
+- To accept responsibility in making engineering decisions consistent with the safety, health, and welfare of the public
+- To avoid real or perceived conflicts of interest whenever possible
+- To be honest and realistic in stating claims or estimates
+- To reject bribery in all its forms
+- To improve the understanding of technology, its appropriate application, and potential consequences
+- To maintain and improve technical competence
+- To seek, accept, and offer honest criticism of technical work
+- To treat all persons fairly and with respect
+- To avoid injuring others, their property, reputation, or employment by false or malicious action
+- To assist colleagues and co-workers in their professional development
+
+[Image: Comparison table showing key differences and similarities between ACM and IEEE codes]
+
+================================================================================
+ETHICAL ISSUES IN COMPUTING
+================================================================================
+
+Privacy and Data Protection
+---------------------------
+- Collecting only necessary data
+- Securing personal information
+- Obtaining informed consent
+- Providing transparency about data use
+- Respecting user rights to access, correct, and delete their data
+
+Security
+-------
+- Implementing robust security measures
+- Reporting vulnerabilities responsibly
+- Protecting systems from unauthorized access
+- Balancing security with usability
+- Ethical hacking and penetration testing
+
+Intellectual Property
+--------------------
+- Respecting copyrights, patents, and trademarks
+- Proper attribution of work
+- Understanding open source licenses
+- Avoiding plagiarism
+- Fair use considerations
+
+Accessibility
+------------
+- Designing systems that are usable by people with disabilities
+- Following accessibility standards (WCAG, Section 508)
+- Testing with diverse user groups
+- Providing alternative access methods
+
+Quality and Reliability
+----------------------
+- Thorough testing before deployment
+- Honest reporting of system capabilities and limitations
+- Maintaining systems properly
+- Documenting code and systems adequately
+- Admitting and fixing errors promptly
+
+[Image: Flowchart showing the ethical decision-making process: Identify the problem, Gather information, Identify stakeholders, Evaluate options, Make decision, Reflect on outcome]
+
+================================================================================
+PROFESSIONAL RESPONSIBILITIES
+================================================================================
+
+Competence
+----------
+- Maintaining and improving technical skills
+- Staying current with industry developments
+- Recognizing limitations of knowledge
+- Seeking help when needed
+- Providing accurate information about capabilities
+
+Honesty and Integrity
+--------------------
+- Being truthful in all professional communications
+- Not misrepresenting qualifications or experience
+- Admitting mistakes
+- Avoiding conflicts of interest
+- Disclosing relevant information to stakeholders
+
+Confidentiality
+--------------
+- Protecting sensitive information
+- Respecting non-disclosure agreements
+- Not using confidential information for personal gain
+- Proper handling of client data
+- Secure disposal of confidential materials
+
+Professional Development
+-----------------------
+- Continuous learning
+- Mentoring others
+- Contributing to the profession
+- Participating in professional organizations
+- Sharing knowledge appropriately
+
+[Image: Pyramid diagram showing hierarchy: Legal Requirements (base), Professional Standards (middle), Ethical Excellence (top)]
+
+================================================================================
+ETHICAL DECISION-MAKING FRAMEWORKS
+================================================================================
+
+Utilitarian Approach
+--------------------
+- Focuses on maximizing overall good or minimizing harm
+- Considers consequences for all stakeholders
+- Challenges: Difficult to measure and predict outcomes
+- Example: Choosing a technology that benefits the most users
+
+Deontological Approach
+----------------------
+- Focuses on duties and rules
+- Actions are right or wrong regardless of consequences
+- Challenges: Rules may conflict
+- Example: Always protecting user privacy, even if it limits functionality
+
+Virtue Ethics Approach
+---------------------
+- Focuses on character and virtues
+- Asks: "What would a virtuous professional do?"
+- Challenges: Different people may have different virtues
+- Example: Acting with integrity and honesty in all situations
+
+Rights-Based Approach
+--------------------
+- Focuses on respecting individual rights
+- Everyone has fundamental rights that must be protected
+- Challenges: Rights may conflict
+- Example: Balancing free speech with preventing harm
+
+[Image: Decision tree for ethical dilemmas: Start -> Is it legal? -> Is it ethical? -> Does it align with professional code? -> Will it harm anyone? -> Can you justify it publicly? -> Proceed or Reconsider]
+
+================================================================================
+COMMON ETHICAL DILEMMAS IN COMPUTING
+================================================================================
+
+Dilemma 1: Privacy vs. Security
+--------------------------------
+Situation: Balancing user privacy with security needs
+Considerations:
+- How much data collection is necessary?
+- Can security be achieved with less invasive methods?
+- What are the risks of each approach?
+- How to communicate trade-offs to users?
+
+Dilemma 2: Innovation vs. Safety
+--------------------------------
+Situation: Releasing new technology quickly vs. thorough testing
+Considerations:
+- What are the potential harms?
+- How critical is the system?
+- Can risks be mitigated after release?
+- What is the cost of delay?
+
+Dilemma 3: Employer vs. Public Interest
+--------------------------------------
+Situation: Employer wants something that may harm users
+Considerations:
+- What is the nature and extent of potential harm?
+- Are there alternatives?
+- Can you influence the decision?
+- When is whistleblowing appropriate?
+
+Dilemma 4: Open Source vs. Proprietary
+-------------------------------------
+Situation: Choosing between open source and proprietary solutions
+Considerations:
+- What are the licensing requirements?
+- What are the security implications?
+- What are the cost considerations?
+- What aligns with organizational values?
+
+[Image: Case study examples with ethical analysis]
+
+================================================================================
+WHISTLEBLOWING
+================================================================================
+
+What is Whistleblowing?
+-----------------------
+The act of reporting unethical, illegal, or harmful activities within an organization to appropriate authorities.
+
+When is Whistleblowing Justified?
+---------------------------------
+- When there is clear evidence of wrongdoing
+- When internal channels have been exhausted
+- When the harm is significant
+- When the whistleblower has proper motives
+- When the disclosure is proportional to the harm
+
+Protections for Whistleblowers
+------------------------------
+- Legal protections (varies by jurisdiction)
+- Professional codes support ethical whistleblowing
+- Some organizations have internal whistleblowing policies
+- Anonymous reporting mechanisms
+
+Risks of Whistleblowing
+----------------------
+- Retaliation from employer
+- Career damage
+- Legal consequences
+- Personal and financial stress
+- Social isolation
+
+Ethical Considerations
+----------------------
+- Verify facts before reporting
+- Use internal channels first when possible
+- Consider the impact on innocent parties
+- Ensure proper motives (not personal vendettas)
+- Follow proper procedures
+
+[Image: Flowchart showing whistleblowing decision process]
+
+================================================================================
+CONFLICT OF INTEREST
+================================================================================
+
+Definition
+----------
+A situation where a professional's personal interests conflict with their professional duties or responsibilities.
+
+Types of Conflicts
+------------------
+1. Financial conflicts: Personal financial gain vs. professional duty
+2. Personal relationships: Friends or family involved in professional decisions
+3. Competing loyalties: Multiple clients or employers with conflicting interests
+4. Gifts and favors: Accepting benefits that may influence judgment
+5. Outside employment: Working for competitors or conflicting organizations
+
+Managing Conflicts
+-----------------
+- Disclose potential conflicts to relevant parties
+- Recuse yourself from decisions where conflicts exist
+- Avoid situations that create conflicts
+- Follow organizational policies
+- Seek guidance from supervisors or ethics committees
+
+Examples in Computing
+--------------------
+- Working on a project for a competitor
+- Using company resources for personal projects
+- Accepting gifts from vendors
+- Hiring friends or family without proper process
+- Investing in companies that compete with your employer
+
+[Image: Examples and scenarios of conflict of interest]
+
+================================================================================
+PROFESSIONAL LIABILITY AND RESPONSIBILITY
+================================================================================
+
+Professional Liability
+----------------------
+- Legal responsibility for professional actions
+- Malpractice in professional services
+- Negligence in system design or implementation
+- Product liability for software defects
+
+Limiting Liability
+-----------------
+- Professional liability insurance
+- Clear contracts and agreements
+- Proper documentation
+- Following industry standards
+- Regular professional development
+
+Responsibility for Systems
+-------------------------
+- Designers: Responsible for initial design decisions
+- Developers: Responsible for implementation quality
+- Testers: Responsible for thorough testing
+- Managers: Responsible for project oversight
+- Organizations: Responsible for overall system safety
+
+Chain of Responsibility
+----------------------
+- Multiple parties may share responsibility
+- Responsibility cannot be completely delegated
+- Each party must fulfill their role
+- Accountability extends to foreseeable consequences
+
+[Image: Diagram showing chain of responsibility in software development]
+
+================================================================================
+SOCIAL RESPONSIBILITY
+================================================================================
+
+Impact on Society
+----------------
+- Computing professionals create systems that affect millions
+- Technology can amplify both good and harm
+- Responsibility extends beyond immediate users
+- Consider unintended consequences
+- Think about long-term impacts
+
+Environmental Responsibility
+---------------------------
+- Energy efficiency of systems
+- E-waste management
+- Sustainable computing practices
+- Green software development
+- Carbon footprint considerations
+
+Digital Divide
+-------------
+- Ensuring technology is accessible
+- Bridging gaps between different groups
+- Affordable technology solutions
+- Digital literacy programs
+- Inclusive design practices
+
+AI and Automation Ethics
+------------------------
+- Bias in algorithms
+- Job displacement concerns
+- Transparency in AI systems
+- Accountability for AI decisions
+- Human oversight requirements
+
+[Image: Infographic showing social impact of computing]
+
+================================================================================
+GLOBAL AND CULTURAL CONSIDERATIONS
+================================================================================
+
+Cultural Sensitivity
+------------------
+- Understanding different cultural contexts
+- Respecting local customs and values
+- Adapting systems for different regions
+- Avoiding cultural biases in design
+- International collaboration ethics
+
+Legal Variations
+--------------
+- Different countries have different laws
+- Complying with local regulations
+- Understanding international agreements
+- Data protection laws (GDPR, etc.)
+- Export control regulations
+
+Professional Standards Across Borders
+-------------------------------------
+- International professional organizations
+- Harmonizing standards where possible
+- Respecting local professional requirements
+- Cross-border professional services
+- Global code of ethics principles
+
+[Image: World map showing different legal and ethical frameworks]
+
+================================================================================
+ENFORCEMENT AND COMPLIANCE
+================================================================================
+
+Enforcement Mechanisms
+---------------------
+- Professional organization sanctions
+- Legal consequences for violations
+- Loss of professional licenses
+- Reputation damage
+- Employment consequences
+
+Self-Regulation
+--------------
+- Professional organizations monitor members
+- Peer review processes
+- Ethical review boards
+- Professional development requirements
+- Continuing education
+
+Organizational Compliance
+------------------------
+- Company codes of conduct
+- Ethics training programs
+- Reporting mechanisms
+- Regular audits
+- Compliance officers
+
+[Image: Organizational structure for ethics compliance]
+
+================================================================================
+CASE STUDIES AND EXAMPLES
+================================================================================
+
+Case Study 1: Therac-25 Radiation Therapy Machine
+--------------------------------------------------
+- Software bug caused fatal radiation overdoses
+- Issues: Inadequate testing, poor documentation, lack of safety mechanisms
+- Lessons: Importance of thorough testing, safety-critical systems require extra care
+- Ethical failures: Not reporting problems, continuing to use unsafe system
+
+Case Study 2: Volkswagen Emissions Scandal
+------------------------------------------
+- Software designed to cheat emissions tests
+- Issues: Deliberate deception, harm to environment and public health
+- Lessons: Honesty in system design, environmental responsibility
+- Ethical failures: Prioritizing profit over public good, deception
+
+Case Study 3: Facebook-Cambridge Analytica
+------------------------------------------
+- Misuse of user data for political purposes
+- Issues: Privacy violations, lack of informed consent, data misuse
+- Lessons: Importance of privacy protection, transparency in data use
+- Ethical failures: Insufficient data protection, misleading users
+
+[Image: Timeline of major computing ethics cases]
+
+================================================================================
+BEST PRACTICES FOR COMPUTING PROFESSIONALS
+================================================================================
+
+Daily Practices
+--------------
+- Follow professional codes of conduct
+- Stay current with ethical issues
+- Seek guidance when facing dilemmas
+- Document ethical decisions
+- Reflect on ethical implications of work
+
+When Facing Ethical Dilemmas
+----------------------------
+1. Identify the ethical issue clearly
+2. Gather all relevant information
+3. Identify all stakeholders
+4. Consider applicable codes and laws
+5. Evaluate options using ethical frameworks
+6. Consult with colleagues or ethics committees
+7. Make a decision and document reasoning
+8. Monitor outcomes and adjust if needed
+
+Building Ethical Culture
+------------------------
+- Lead by example
+- Encourage ethical discussions
+- Support ethical decision-making
+- Recognize ethical behavior
+- Address unethical behavior promptly
+
+Continuous Improvement
+---------------------
+- Regular ethics training
+- Staying informed about new ethical challenges
+- Participating in professional development
+- Contributing to ethical discussions
+- Updating codes and standards
+
+[Image: Checklist for ethical decision-making]
+
+================================================================================
+CONCLUSION
+================================================================================
+
+Key Takeaways
+-------------
+- Professional ethics are essential for computing professionals
+- Codes of conduct provide guidance but require interpretation
+- Ethical decision-making is an ongoing process
+- Professionals have responsibilities to multiple stakeholders
+- Technology's impact requires careful ethical consideration
+
+Future Challenges
+----------------
+- Emerging technologies (AI, IoT, quantum computing)
+- Evolving privacy and security concerns
+- Global collaboration and regulation
+- Balancing innovation with safety
+- Addressing bias and discrimination in systems
+
+Final Thoughts
+--------------
+- Ethics is not optional for professionals
+- Small decisions can have large impacts
+- When in doubt, consult codes, colleagues, and conscience
+- Professional reputation is built on ethical behavior
+- The computing profession depends on public trust
+
+[Image: Summary diagram of key ethical principles]
+
+================================================================================
+END OF LECTURE NOTES
+================================================================================
+
