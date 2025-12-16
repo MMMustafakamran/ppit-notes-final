@@ -1,0 +1,177 @@
+Human Rights – PPIT Fall 21 (Week 4)
+Complete Text Notes (with image descriptions)
+
+================================================================================
+1) What Are Human Rights?
+================================================================================
+- Universal, inalienable rights inherent to all people regardless of nationality, gender, race, religion, or any status.
+- Interdependent and indivisible: civil, political, economic, social, and cultural rights reinforce one another.
+- Apply offline and online; extend to the digital environment (privacy, expression, access).
+
+[Image: Universal human rights icon set illustrating equality, justice, and dignity.]
+
+Core Characteristics
+--------------------
+- Universality: Everyone, everywhere.
+- Inalienability: Cannot be taken away (only limited under strict, lawful conditions).
+- Equality and non-discrimination: Same rights and equal protection for all.
+- Accountability and rule of law: States (and increasingly companies) must respect, protect, and fulfill rights.
+
+================================================================================
+2) Key Instruments and Frameworks
+================================================================================
+
+Universal Declaration of Human Rights (UDHR, 1948)
+---------------------------------------------------
+- Foundational, non-binding declaration shaping modern human rights law.
+- Examples:
+  - Article 1: All human beings are born free and equal in dignity and rights.
+  - Article 2: Rights without distinction (race, sex, language, religion, etc.).
+  - Article 3: Right to life, liberty, security of person.
+  - Article 12: Privacy and protection from arbitrary interference.
+  - Article 19: Freedom of opinion and expression.
+  - Article 23: Right to work; just and favorable conditions.
+  - Article 25: Adequate standard of living, health and well-being.
+
+International Covenants (legally binding)
+-----------------------------------------
+- ICCPR (International Covenant on Civil and Political Rights)
+  - Life, liberty, fair trial, privacy, expression, association, religion.
+- ICESCR (International Covenant on Economic, Social and Cultural Rights)
+  - Work, health, education, adequate standard of living, social security.
+
+Regional Systems (examples)
+---------------------------
+- ECHR (Europe), ACHR (Americas), ACHPR (Africa).
+- Provide courts/commissions for regional enforcement.
+
+Pakistan Context (illustrative touchpoints)
+-------------------------------------------
+- Constitution of Pakistan:
+  - Article 8–28: Fundamental rights (equality, speech, religion, fair trial, privacy of home correspondence, etc.).
+  - Article 25: Equality before law; non-discrimination on basis of sex.
+  - Article 19: Freedom of speech (reasonable restrictions).
+  - Article 19A: Right to information (public importance).
+- Domestic legislation intersecting rights:
+  - PECA 2016 (cybercrime; must be balanced with speech/privacy).
+  - Data protection (draft/sectoral) and privacy jurisprudence.
+
+[Image: Timeline showing UDHR (1948), ICCPR/ICESCR (1966/76), regional systems, and national constitutions.]
+
+================================================================================
+3) Generations / Categories of Rights
+================================================================================
+- First generation: Civil and political (life, liberty, fair trial, expression, privacy).
+- Second generation: Economic, social, cultural (work, education, health, housing).
+- Third generation: Collective/solidarity (development, environment, self-determination, access to resources).
+
+[Image: Three concentric circles showing civil/political, socio-economic, and collective rights.]
+
+================================================================================
+4) Duties and Duty-Bearers
+================================================================================
+- State duties: Respect (do no harm), Protect (prevent third-party abuses), Fulfill (enable/enforce rights).
+- Corporate responsibility (UNGPs on Business and Human Rights): 
+  - Respect human rights; conduct due diligence; provide or enable remedy.
+- Individual and professional responsibilities: Avoid complicity; uphold professional codes that reflect rights (e.g., privacy by design).
+
+[Image: Triangle mapping Rights-Holders (people), Duty-Bearers (state), and Corporate Actors.]
+
+================================================================================
+5) Digital and Technology-Related Rights
+================================================================================
+
+Privacy and Data Protection
+---------------------------
+- Article 12 UDHR; Article 17 ICCPR; constitutional privacy of home/correspondence.
+- Data minimization, informed consent, purpose limitation, security, retention limits.
+- Risks: surveillance, data breaches, secondary use, re-identification.
+
+Freedom of Expression and Information
+-------------------------------------
+- Article 19 UDHR/ICCPR; Article 19/19A Constitution of Pakistan (with reasonable restrictions).
+- Online expression, platform governance, misinformation vs. censorship, proportionality tests.
+
+Non-Discrimination and Equality
+-------------------------------
+- Algorithmic bias, automated decision-making (employment, credit, policing).
+- Need for fairness, transparency, explainability; bias audits and diverse datasets.
+
+Due Process and Fair Trial (Digital)
+------------------------------------
+- Notice, opportunity to contest automated decisions; transparency of criteria.
+
+Safety and Security
+-------------------
+- Cybersecurity as enabler of rights; protection from harassment, stalking, threats.
+
+Access and Inclusion
+--------------------
+- Bridging digital divide; accessibility (WCAG), affordability, language localization.
+
+[Image: “Digital rights” cloud with privacy, expression, inclusion, security, fairness.]
+
+================================================================================
+6) Restrictions and Limitations
+================================================================================
+- Must be lawful, necessary, proportionate, and for a legitimate aim (e.g., national security, public order, rights of others).
+- No arbitrary or overly broad restrictions; require due process and oversight.
+[Image: Scale weighing ‘Legitimate Aim’ vs. ‘Necessity/Proportionality’.]
+
+================================================================================
+7) Business and Human Rights (Tech Focus)
+================================================================================
+- UN Guiding Principles (UNGPs): Protect–Respect–Remedy.
+- Due diligence: identify, prevent, mitigate, and account for impacts.
+- Areas: content moderation, surveillance tech, ad targeting, AI/ML bias, supply chain labor.
+- Remedy: grievance mechanisms, user redress, transparency reports.
+
+[Image: Loop diagram: Due Diligence → Mitigation → Monitoring → Remedy → Transparency.]
+
+================================================================================
+8) Case Illustrations (concise)
+================================================================================
+- Biased AI hiring tool: Discrimination → violates equality/non-discrimination, due process.
+- Mass surveillance program: Privacy intrusion without necessity/proportionality.
+- Data breach exposing health data: Violates privacy, security; need for notification and remedy.
+- Content takedown without appeal: Expression and due process concerns.
+- Accessibility failures: Exclusion of persons with disabilities → equality/inclusion issues.
+
+================================================================================
+9) Practical Checklists
+================================================================================
+
+Human Rights Impact (for tech projects)
+---------------------------------------
+- Purpose: What problem? Legitimate aim?
+- Necessity & proportionality: Least intrusive means?
+- Rights affected: Privacy, expression, equality, due process, safety.
+- Stakeholders: Who is impacted, directly and indirectly?
+- Data: Minimization, consent, retention, secondary use?
+- Bias/Fairness: Testing, audits, explainability.
+- Security: Controls, breach response.
+- Governance: Policies, oversight, accountability, appeals.
+- Transparency: User notices, documentation, public reporting.
+
+Redress and Oversight
+---------------------
+- Clear channels for complaints/appeals.
+- Independent review or audit.
+- Documented SLAs for response/remedy.
+
+================================================================================
+10) Exam-Oriented Highlights (mapped to study guide)
+================================================================================
+- Ethical Decision-Making (Q2 – 25 marks): Use 4-Step model; apply to human-rights scenarios (privacy, discrimination, expression). Analyze via Consequentialism, Rights/Duties, Deontology. List stakeholders and give actionable implementation steps.
+- Law vs. Ethics (Q1 MCQs): Moral principles ≠ law; restrictions must be lawful, necessary, proportionate.
+- Rights and Duties: State duty to respect/protect/fulfill; corporate responsibility to respect (UNGPs).
+- Privacy & Data: Minimization, consent, purpose limitation, security, retention; risk of secondary use and re-identification.
+- Expression & Information: Article 19/19A; reasonable restrictions; due process for takedowns/appeals.
+- Non-Discrimination: Algorithmic bias; need for fairness and equal treatment.
+- Jurisdiction/Access: Right to information; bridging digital divide; accessibility obligations.
+- Key definitions to memorize: UDHR, ICCPR/ICESCR, necessity/proportionality, universality/inalienability/equality.
+
+================================================================================
+END OF NOTES
+================================================================================
+
