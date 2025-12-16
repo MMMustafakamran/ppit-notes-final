@@ -107,10 +107,14 @@
    - Ethical impact assessment, diverse data, bias testing
 
 ### Key Ethics Definitions
-- **Whistleblowers**: Make unauthorized disclosures about harmful situations
+- **Whistleblowers**: Make unauthorized disclosures about harmful situations or fraud
 - **Moral principles ≠ Law**: They can differ (False that they always align)
 - **Code of conduct objectives**: Discipline, Inspiration, Education (NOT Enforcement)
-- **Ethical theories are NOT formulas**: They are frameworks for analysis
+- **Ethical theories are NOT formulas**: They are frameworks for analysis (NOT formulas to solve problems, NOT for judging involuntary actions)
+- **Egoism is NOT duty-based**: Egoism is self-interest based, NOT based on altruism or care for others (Statement 2 in Q5 is FALSE)
+- **ACM Code Requirement**: Give comprehensive and thorough evaluations of computer systems and their impacts, including analysis of possible risks (True)
+- **Utilitarianism is consequentialist**: Focuses on outcomes and collective welfare (Statement 1 in Q5 is TRUE)
+- **Deontology is attributed to Kant**: Duty-based ethical theory (Statement 3 in Q5 is TRUE)
 
 ---
 
@@ -136,8 +140,8 @@
 | **Registration** | FBR (if income threshold) | SECP | SECP |
 
 ### Employment Contract Clauses
-- **Non-compete Clause**: Prevents employees (current/former) from working for direct competitors for a period
-- **Non-solicitation Clause**: Prevents employees from encouraging other employees/customers to move to another company
+- **Non-compete Clause**: Prevents employees (current AND former) from working for direct competitors of a business for a period of time
+- **Non-solicitation Clause**: Prevents employees from encouraging other employees AND/OR organization's customers to move to another company
 
 ### Key Requirements
 - **SMC**: Must nominate 2 individuals (one nominee director, one alternate); must appoint company secretary (sole director cannot be secretary)
@@ -188,6 +192,19 @@
 - Suggest: Likely Matrix or Hybrid structure
 - Justify: Based on strategy, size, technology, geography
 - Draw: Organization chart showing reporting relationships
+
+### Example Scenario: Kangaroo Corp (Multi-product, Multi-geography)
+- **Products**: Multiple software packages (Farming Basics, Premium, Analytics)
+- **Geography**: Multiple countries (Australia, USA, Pakistan)
+- **Centralized Functions**: Software development, customer services, Technology (CTO), PMO
+- **Country Operations**: Business development, sales, marketing at country level
+- **Structure Recommendation**: Matrix or Hybrid (product divisions + geographic divisions + centralized functions)
+- **Justification**: Need to balance product focus, geographic responsiveness, and centralized efficiency
+- **Key Elements**: 
+  - Product divisions (FB, FP, FA) with flat hierarchy
+  - Geographic sub-offices (USA, Pakistan) for country operations
+  - Centralized head office (Sydney) for development and customer services
+  - Centralized Technology (CTO) and PMO for technical/project management
 
 ---
 
@@ -244,6 +261,13 @@
 | **Middle Management** | Tactical decisions, department coordination | Engineering Manager, Product Manager | Medium-term |
 | **First-Line Management** | Operational decisions, daily supervision | Team Lead, Project Manager | Short-term |
 
+### POLC - Key Points for MCQs
+- **Planning**: Goals defined and strategy established (NOT monitoring employees, gathering resources, or exchanging information)
+- **Organizing**: Resources gathered and tasks arranged
+- **Leading**: Motivating and directing people
+- **Controlling**: Monitoring performance and making corrections
+- Management functions fall into: Planning, Organizing, Controlling, Leading (NOT strategizing/communicating/punishing, NOT technical/non-technical leadership)
+
 ---
 
 # 📚 PART 2: MEDIUM PRIORITY TOPICS (25 Marks)
@@ -267,6 +291,11 @@
 | **Marketplace/Platform** | Connects buyers/sellers, commission | Amazon, Uber |
 | **Usage-Based** | Pay per use (API calls, compute) | AWS, Twilio |
 | **Product License** | One-time software sale | Traditional enterprise software |
+
+### Key Distinctions (Important for MCQs)
+- **Revenue Model ≠ Business Model**: Revenue model is framework for generating income; business model is overall approach to creating/delivering/capturing value
+- **Value Proposition ≠ Business Model ≠ Revenue Model**: Value proposition is promise of value to customer
+- **Freemium**: Some features free, advanced features require premium/payment (NOT commission model, donationware, or crippleware)
 
 ### Business Model Canvas (Key Blocks)
 - Customer Segments, Value Proposition, Channels, Customer Relationships, Revenue Streams
@@ -315,8 +344,8 @@
 
 ### Data Mining & Related Concepts
 - **Data Mining**: Process of analyzing data to discover patterns
-- **Collaborative Filtering**: Form of data mining (used in recommendations)
-- **Micro Targeting**: Using data mining to target specific groups (e.g., political campaigns)
+- **Collaborative Filtering**: Form of data mining (used in recommendations, NOT credit reports or flash cookies)
+- **Micro Targeting**: Using data mining to target specific groups (e.g., political campaigns determine voters most likely to support particular candidate)
 
 ---
 
@@ -353,6 +382,10 @@
 | **Cost-Plus** | Pay actual costs + profit margin | Client bears cost overruns | Software dev: hours + overhead + profit % |
 | **Fixed Price** | Agreed price regardless of actual costs | Contractor bears cost overruns | Software project: $50,000 fixed price |
 
+### Employment & Legal Issues
+- **Firing Employees**: Ethical and legal if employee doesn't perform according to expectation or fails to follow contractual obligations
+- **Contractual Obligations**: Employees must fulfill their contractual duties; failure to do so can result in termination
+
 ---
 
 ## 10. LEGAL SYSTEM OF PAKISTAN (Q1: Q8, Q13, Q14, Q15)
@@ -371,6 +404,12 @@
 3. **District & Sessions Courts** - Civil and criminal cases at district level
 4. **Special Courts/Tribunals** - Banking courts, taxation, anti-terrorism, cybercrime/PECA courts
 
+### Legal System - Key Points for MCQs
+- **Jurisdiction**: Area covered by single legal system and set of laws (NOT Executive, Legislature, or Torts)
+- **Succession**: Falls under Civil Law (NOT Criminal Law, Public Law, or Substantive Law)
+- **Civil Courts**: Fall directly under High Courts (True) - NOT under Supreme Court directly
+- **Legislative Process**: National Assembly and Senate (NOT Superior judiciary or three pillars of state)
+
 ---
 
 ## 11. INTELLECTUAL PROPERTY (Q1: Q6)
@@ -385,8 +424,9 @@
 | **Trade Secret** | Confidential business information | As long as secret kept | Proprietary algorithms, AI models |
 
 ### Key Points
-- **Trademark and Domain Names**: Trademark can be used as domain name, but should be used carefully to avoid conflicts
-- **Copyright**: Unauthorized copying is both unethical and illegal
+- **Trademark and Domain Names**: Trademark can be used as domain name (Yes), but should be used carefully to avoid conflicts
+- **Copyright Violation**: Making unauthorized copies of copyrighted software is NOT ethical and NOT legal
+- **Planting Viruses**: Planting viruses in someone else's computer is NOT ethical and NOT legal
 - **Copyright protects expression, NOT ideas**
 
 ### Protecting a Startup/FYP
@@ -488,7 +528,7 @@
 - Maintain professional competence
 - Know and respect existing rules
 - Accept professional review
-- Give comprehensive evaluations
+- **Give comprehensive and thorough evaluations** of computer systems and their impacts, including analysis of possible risks
 - Honor contracts and agreements
 - Improve public understanding
 - Access resources only when authorized
@@ -768,13 +808,15 @@
 ## Ethics (Must Know)
 - [ ] Utilitarianism: "Greatest good for greatest number" - consequentialist
 - [ ] Deontology: Duty-based, Kant - focuses on rules/duties
-- [ ] Egoism: Self-interest based
+- [ ] Egoism: Self-interest based (NOT duty-based, NOT altruism)
 - [ ] Hedonism: Pursuit of happiness as highest aim
 - [ ] 4-Step Ethical Decision Making Process (all steps)
 - [ ] Consequentialism, Rights and Duties, Deontology frameworks
-- [ ] Whistleblowers definition
-- [ ] Moral principles ≠ Law
-- [ ] Code of conduct objectives (Discipline, Inspiration, Education)
+- [ ] Whistleblowers: Make unauthorized disclosures about harmful situations or fraud
+- [ ] Moral principles ≠ Law (False that they always align)
+- [ ] Code of conduct objectives (Discipline, Inspiration, Education - NOT Enforcement)
+- [ ] Ethical theories are NOT formulas but frameworks for analysis
+- [ ] ACM Code: Comprehensive evaluations of systems and impacts required
 
 ## Business Structures (Must Know)
 - [ ] Veil of Incorporation definition and purpose
@@ -815,6 +857,8 @@
 - [ ] Licensing purpose (5 points)
 - [ ] Indemnity: Compensation for loss/damage
 - [ ] Cost-plus vs. Fixed price contracts
+- [ ] Firing employees: Ethical and legal if they don't perform or fail contractual obligations
+- [ ] Unauthorized copying/planting viruses: NOT ethical and NOT legal
 
 ## Organizational Structure (Must Know)
 - [ ] Types: Simple, Functional, Divisional, Matrix, Flat, Hierarchical
@@ -836,9 +880,24 @@
 ## For Q2 (Ethical Decision Making - 25 marks)
 1. **Read scenario carefully** (5 min) - underline key facts
 2. **Step I: Understanding** (10 min) - 10-15 facts, 4-6 ethical issues, 8-10 stakeholders
+   - Facts: Number each fact, be neutral and logical
+   - Ethical issues: Why it's an issue, potential/resulting harm
+   - Stakeholders: Directly and indirectly affected parties
 3. **Step II: Dilemma** (2 min) - frame clear either/or question
+   - Format: "Should [person/entity] [action] or [alternative action]?"
 4. **Step III: Analysis** (15 min) - Use ALL THREE frameworks (A-G, 1-5, H-P) for BOTH alternatives
+   - Consequentialism (A-G): Harm/benefit analysis for both alternatives
+   - Rights and Duties (1-5): Rights, duties, precedence for both alternatives
+   - Deontology (H-P): Respect, universalization for both alternatives
 5. **Step IV: Decision** (13 min) - Clear decision, 5-8 implementation steps, stakeholder impacts, 4-6 preventive measures, pivot point
+   - Reference frameworks (A-G, 1-5, H-P) to justify decision
+   - Show which rights/duties take precedence
+
+### Example Scenario: Qaswa Corporation (E-Mail-Based Effort to Boost Morale)
+- **Key Elements**: Employee morale, anonymous memo, system security bypass, management response
+- **Typical Stakeholders**: Khalid (employee), Maryam (colleague), Shahzeb (director), Qaswa Corporation, other employees, management, board of directors
+- **Typical Ethical Issues**: Anonymity, system security bypass, disrespect to management, impact on morale, potential harm to company reputation
+- **Typical Dilemma**: Should Shahzeb fire Khalid or take alternative disciplinary action?
 
 ### Common Mistakes to Avoid
 - ❌ Missing facts or stakeholders
@@ -875,9 +934,17 @@
 - Time: ~15 minutes
 
 ## For Q6 (Structure Design - 10 marks)
-- Analyze the scenario carefully
+- Analyze the scenario carefully (products, geography, centralized functions)
+- Identify key factors: strategy, size, technology, environment, geography
+- Suggest suitable structure (often Matrix or Hybrid for complex scenarios)
 - Justify your choice with factors
-- Draw clear organization chart
+- Draw clear organization chart showing reporting relationships
+- Consider: Product divisions, geographic divisions, centralized departments (Technology, PMO, etc.)
+- **For Kangaroo Corp type scenarios**: 
+  - Product-based divisions (FB, FP, FA)
+  - Geographic sub-offices (country-level operations)
+  - Centralized functions (development, customer services, Technology, PMO)
+  - Matrix structure allows dual reporting (product + geography + function)
 - Time: ~15 minutes
 
 ---
@@ -938,6 +1005,46 @@
 ### Communication:
 - **Grapevine** = Informal communication network
 - Thrives due to: Importance, ambiguity, anxiety, information gaps
+
+---
+
+---
+
+# 📋 EXAM-SPECIFIC ANSWER PATTERNS & CLARIFICATIONS
+
+## MCQ Answer Patterns (Based on Exam Questions)
+
+### Ethics Questions
+- **Q2**: Hedonism (pursuit of happiness as highest ethical aim)
+- **Q3**: Whistleblowers make unauthorized disclosures about harmful situations or fraud
+- **Q4**: Moral principles are NOT always aligned with law (False)
+- **Q5**: Statements 1 and 3 are correct (Utilitarianism is consequentialist, Deontology is Kant's theory); Statement 2 is FALSE (Egoism is NOT duty-based)
+- **Q7**: Utilitarianism ("greatest good for greatest number")
+- **Q9**: Ethical theories are NOT formulas to solve problems
+
+### Business & Legal Questions
+- **Q1**: Revenue model is a framework for generating income (NOT same as business model)
+- **Q6**: Trademark can be used as domain name (Yes), but should be used carefully
+- **Q8**: Jurisdiction means area covered by single legal system
+- **Q13**: Succession falls under Civil Law
+- **Q14**: Civil courts fall directly under High Courts (True)
+- **Q15**: Legislative process consists of National Assembly and Senate
+- **Q16**: Firing employees who don't perform is Ethical and Legal
+- **Q19**: Making unauthorized copies/planting viruses is NOT ethical and NOT legal
+- **Q20**: Freemium (free features + premium payment)
+- **Q21**: Non-compete clause prevents current AND former employees from working for competitors
+- **Q22**: Non-solicitation clause prevents encouraging employees AND customers to move
+- **Q23**: Licensing is process to evaluate readiness to enter profession
+- **Q24**: Value proposition is promise of value to customer (NOT business model or revenue model)
+- **Q25**: Management functions: Planning, Organizing, Controlling, Leading
+
+### Data & Technology Questions
+- **Q17**: Collaborative filtering is a form of data mining
+- **Q18**: Micro targeting uses data mining to determine voters most likely to support candidate
+
+### Code of Conduct Questions
+- **Q10**: Code of conduct objectives: Discipline, Inspiration, Education (NOT Enforcement)
+- **Q11**: ACM code requires comprehensive evaluations of systems and impacts (True)
 
 ---
 
