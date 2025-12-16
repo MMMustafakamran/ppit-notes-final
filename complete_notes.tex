@@ -1,0 +1,1838 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{titletoc}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+% Customize page style - no header/footer on first pages
+\fancypagestyle{plain}{%
+    \fancyhf{}%
+    \renewcommand{\headrulewidth}{0pt}%
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{PPIT Final Exam - Combined Cheat Sheet}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+% Set table of contents depth (0=parts, 1=sections, 2=subsections, 3=subsubsections)
+\setcounter{tocdepth}{1}
+
+% Format title page
+\title{\vspace{-2cm}\Huge\textbf{PPIT Final Exam}\\[0.5cm]\Large Combined Cheat Sheet\vspace{1cm}}
+\author{\Large\textbf{Exam Information}\\[0.3cm]
+        \large Exam Date: December 26th, 2024\\[0.2cm]
+        Total Marks: 100\\[0.2cm]
+        Time: 3 Hours\vspace{1.5cm}}
+\date{}
+
+% Format table of contents
+\titlecontents{part}
+    [0pt]
+    {\addvspace{10pt}\bfseries\large}
+    {\contentslabel{0pt}}
+    {}
+    {\titlerule*[0.5pc]{.}\contentspage}
+    []
+
+\titlecontents{section}
+    [20pt]
+    {\addvspace{2pt}}
+    {\contentslabel{2.5em}}
+    {}
+    {\titlerule*[0.5pc]{.}\contentspage}
+    []
+
+\begin{document}
+
+% Title page
+\thispagestyle{plain}
+\maketitle
+\vfill
+\begin{center}
+\large\textit{Comprehensive Study Guide for PPIT Final Examination}
+\end{center}
+\vspace{2cm}
+
+\newpage
+
+% Table of Contents page
+\thispagestyle{plain}
+\begin{center}
+\vspace*{1cm}
+{\Huge\textbf{Table of Contents}}\\[0.5cm]
+\rule{0.8\textwidth}{0.4pt}\\[1cm]
+\end{center}
+\addcontentsline{toc}{section}{Table of Contents}
+\tableofcontents
+\vfill
+\begin{center}
+\rule{0.8\textwidth}{0.4pt}
+\end{center}
+
+\newpage
+
+% Exam Structure Overview page
+\thispagestyle{plain}
+\begin{center}
+\vspace*{1cm}
+{\Huge\textbf{Exam Structure Overview}}\\[0.5cm]
+\rule{0.8\textwidth}{0.4pt}\\[1cm]
+\end{center}
+
+\vspace{0.5cm}
+\addcontentsline{toc}{section}{Exam Structure Overview}
+
+\begin{center}
+\begin{tabular}{p{2.5cm}p{2cm}p{4.5cm}p{5cm}}
+\toprule
+\textbf{Question} & \textbf{Marks} & \textbf{Type} & \textbf{Focus Areas} \\
+\midrule
+\textbf{Q1} & 25 & Multiple Choice (25 questions) & Broad coverage of all topics \\
+\midrule
+\textbf{Q2} & 25 & Ethical Decision Making (4-step process) & Ethics, ethical theories, stakeholder analysis \\
+\midrule
+\textbf{Q3} & 15 & Business Structures & Veil of incorporation, company structures \\
+\midrule
+\textbf{Q4} & 15 & Short Answer Questions & Licensing, computer crimes, contracts \\
+\midrule
+\textbf{Q5} & 10 & Communication & Grapevine communication, rumor management \\
+\midrule
+\textbf{Q6} & 10 & Organizational Structure & Designing organizational structure \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\vspace{1.5cm}
+
+\begin{center}
+\rule{0.8\textwidth}{0.4pt}\\[0.5cm]
+\textit{Total: 100 Marks | Duration: 3 Hours}
+\end{center}
+
+\vfill
+
+\part{HIGH PRIORITY TOPICS (50+ Marks)}
+
+\section{ETHICAL THEORIES \& 4-STEP DECISION MAKING (Q2 - 25 marks)}
+
+\subsection{Core Ethical Theories}
+
+\begin{longtable}{p{3cm}p{4cm}p{3cm}p{2.5cm}}
+\toprule
+\textbf{Theory} & \textbf{Key Principle} & \textbf{Focus} & \textbf{Key Figure} \\
+\midrule
+\textbf{Utilitarianism} & Greatest good for greatest number & Outcomes, consequences & Consequentialist \\
+\textbf{Deontology} & Duty-based, categorical imperative & Rules and duties, not consequences & Kant \\
+\textbf{Egoism} & Self-interest based & Personal benefit & NOT duty-based \\
+\textbf{Hedonism} & Pursuit of happiness/pleasure & Pleasure as highest aim & -- \\
+\textbf{Consequentialism} & Focus on outcomes & Results matter most & Utilitarianism is a type \\
+\textbf{Rights \& Duties} & Individual rights + moral duties & Fairness, fundamental rights & -- \\
+\textbf{Virtue Ethics} & Character and virtues & ``What would a virtuous person do?'' & -- \\
+\textbf{Justice/Fairness} & Fair treatment and equity & Distribution of benefits/harms & -- \\
+\bottomrule
+\end{longtable}
+
+\subsection{4-Step Ethical Decision Making Framework}
+
+\subsubsection{Step I: Understanding the Situation}
+\begin{enumerate}
+\item \textbf{List relevant facts} (10--15 facts, numbered)
+\begin{itemize}
+\item Neutral, logical exercise
+\item Do NOT judge at this stage
+\item Just state what is known
+\end{itemize}
+\item \textbf{Identify ethical issues} (4--6 issues)
+\begin{itemize}
+\item Why it's an ethical issue
+\item Potential or resulting harm
+\item Look for: discrimination, privacy violations, safety risks, conflicts of interest
+\end{itemize}
+\item \textbf{List stakeholders} (8--10 stakeholders)
+\begin{itemize}
+\item Directly and indirectly affected parties
+\item Think broadly: applicants, employees, management, customers, society, industry, regulators
+\end{itemize}
+\end{enumerate}
+
+\subsubsection{Step II: Isolating the Major Ethical Dilemma}
+\begin{itemize}
+\item Format: ``Should [person/entity] [action] or [alternative action]?''
+\item Identify core ethical conflict
+\item What values/rights/duties compete?
+\item Frame as clear either/or question
+\end{itemize}
+
+\subsubsection{Step III: Analyzing Ethicality (BOTH ALTERNATIVES)}
+
+\textbf{A. CONSEQUENTIALISM (Utilitarian Analysis)}
+\begin{itemize}
+\item A. If action done, who harmed?
+\item B. If action NOT done, who harmed?
+\item C. Which preferable, A or B?
+\item D. If action done, who benefits?
+\item E. If action NOT done, who benefits?
+\item F. Which preferable, D or E?
+\item G. Which produces greatest good for greatest number?
+\item Consider both short-term and long-term consequences
+\end{itemize}
+
+\textbf{B. RIGHTS AND DUTIES}
+\begin{enumerate}
+\item What rights do stakeholders have?
+\item What duties do we have toward stakeholders?
+\item Which rights/duties take precedence when they conflict?
+\item Does action respect fundamental rights?
+\item Does action fulfill our duties?
+\end{enumerate}
+\begin{itemize}
+\item Fundamental rights (fairness, non-discrimination) usually take precedence over efficiency
+\end{itemize}
+
+\textbf{C. DEONTOLOGY (Kant's Categorical Imperative)}
+\begin{itemize}
+\item H. If action done, who treated with disrespect?
+\item I. If action NOT done, who treated with disrespect?
+\item J. Which preferable, H or I?
+\item K. If action done, who treated unlike others?
+\item L. If action NOT done, who treated unlike others?
+\item M. Which preferable, K or L?
+\item N. Benefits if everyone did this action?
+\item O. Benefits if nobody did this action?
+\item P. Which preferable, N or O?
+\item Universalization test: Would it be okay if everyone acted this way?
+\end{itemize}
+
+\subsubsection{Step IV: Making Decision and Implementation}
+\begin{enumerate}
+\item \textbf{Make defensible ethical decision}
+\begin{itemize}
+\item Reference supporting frameworks (A--G, 1--5, H--P)
+\item Justify choice
+\item Explain which rights/duties take precedence
+\item Be clear and direct: ``Should/Should not\ldots''
+\end{itemize}
+
+\item \textbf{List implementation steps} (5--8 concrete steps)
+\begin{itemize}
+\item Document findings
+\item Escalate to management
+\item Suspend problematic activity
+\item Conduct audit/review
+\item Retrain staff
+\item Implement oversight
+\item Communicate with stakeholders
+\item Be specific, not vague
+\end{itemize}
+
+\item \textbf{Show stakeholder impacts}
+\begin{itemize}
+\item For each stakeholder: positive impacts, benefits, challenges
+\item Go through each stakeholder from Step I.C
+\item Be balanced -- acknowledge both benefits and challenges
+\end{itemize}
+
+\item \textbf{Longer-term preventive changes} (4--6 measures)
+\begin{itemize}
+\item \textbf{Technical}: Bias testing, audits, standards
+\item \textbf{Organizational}: Ethics codes, review boards, training, culture
+\item \textbf{Legal/Compliance}: Legislation, industry standards, regulations
+\item \textbf{Cultural}: Ethical engineering culture, open discussion
+\item \textbf{Societal}: Public awareness, education, diversity
+\item \textbf{Industry}: Collaboration, best practices, professional organizations
+\end{itemize}
+
+\item \textbf{Pivot point prevention}
+\begin{itemize}
+\item What should have been done at design/planning stage?
+\item Ethical impact assessment, diverse data, bias testing
+\item Cross-functional teams, early intervention
+\end{itemize}
+\end{enumerate}
+
+\subsection{Key Ethics Definitions}
+\begin{itemize}
+\item \textbf{Whistleblowers}: Make unauthorized disclosures about harmful situations or fraud
+\item \textbf{Moral principles $\neq$ Law}: They can differ (False that they always align)
+\item \textbf{Code of conduct objectives}: Discipline, Inspiration, Education (NOT Enforcement)
+\item \textbf{Ethical theories are NOT formulas}: They are frameworks for analysis (NOT formulas to solve problems, NOT for judging involuntary actions)
+\item \textbf{Egoism is NOT duty-based}: Egoism is self-interest based, NOT based on altruism or care for others
+\item \textbf{ACM Code Requirement}: Give comprehensive and thorough evaluations of computer systems and their impacts, including analysis of possible risks (True)
+\item \textbf{Utilitarianism is consequentialist}: Focuses on outcomes and collective welfare
+\item \textbf{Deontology is attributed to Kant}: Duty-based ethical theory
+\item \textbf{Profession traits}: Expert knowledge, substantial education/training, autonomy, internal governance, service to society, codes of conduct, professional bodies
+\item \textbf{Mature profession}: Education + accreditation + certification + licensing + CPD + codes + societies
+\item \textbf{Pillars of Professionalism}: Commitment, Integrity, Responsibility, Accountability
+\end{itemize}
+
+\subsection{Informal Guidelines (Quick Tests)}
+\begin{enumerate}
+\item \textbf{Secrecy Test} -- Is anyone asking me to keep this quiet?
+\item \textbf{Mom Test} -- Would I be proud to tell my mother?
+\item \textbf{TV Test} -- Would I be comfortable if this appeared on news?
+\item \textbf{Market Test} -- Could this be advertised as a selling point?
+\item \textbf{Smell Test} -- Does something feel ``off'' instinctively?
+\end{enumerate}
+
+\subsection{Golden Rule}
+Would I accept this if roles were reversed?
+
+\section{PROFESSIONAL CODE OF CONDUCT}
+
+\subsection{ACM Code of Ethics - General Principles}
+\begin{enumerate}
+\item Contribute to society and human well-being
+\item Avoid harm
+\item Be honest and trustworthy
+\item Be fair and non-discriminatory
+\item Respect intellectual property
+\item Respect privacy
+\item Honor confidentiality
+\end{enumerate}
+
+\subsection{Professional Responsibilities}
+\begin{itemize}
+\item Achieve high quality in processes and products
+\item Maintain professional competence
+\item Know and respect existing rules
+\item Accept professional review
+\item \textbf{Give comprehensive and thorough evaluations} of computer systems and their impacts, including analysis of possible risks
+\item Honor contracts and agreements
+\item Improve public understanding
+\item Access resources only when authorized
+\end{itemize}
+
+\subsection{Leadership Principles}
+\begin{itemize}
+\item Ensure public good is central concern
+\item Articulate and evaluate social responsibilities
+\item Manage resources to enhance quality of working life
+\item Create growth opportunities
+\item Care when modifying/retiring systems
+\end{itemize}
+
+\subsection{IEEE Code of Ethics - Key Principles}
+\begin{itemize}
+\item Accept responsibility for safety, health, welfare of public
+\item Avoid conflicts of interest
+\item Be honest in claims/estimates
+\item Reject bribery
+\item Improve understanding of technology
+\item Maintain technical competence
+\item Seek and offer honest criticism
+\item Treat all persons fairly
+\item Avoid injuring others
+\item Assist colleagues' professional development
+\end{itemize}
+
+\subsection{Ethical Issues in Computing}
+\begin{itemize}
+\item \textbf{Privacy and Data Protection}: Collect only necessary, secure, informed consent
+\item \textbf{Security}: Robust measures, responsible disclosure, protect from unauthorized access
+\item \textbf{Intellectual Property}: Respect copyrights, patents, trademarks, proper attribution
+\item \textbf{Accessibility}: Design for disabilities, follow WCAG, Section 508
+\item \textbf{Quality and Reliability}: Thorough testing, honest reporting, proper maintenance
+\end{itemize}
+
+\subsection{Whistleblowing}
+\begin{itemize}
+\item \textbf{Definition}: Reporting unethical, illegal, or harmful activities
+\item \textbf{When Justified}: Clear evidence, internal channels exhausted, significant harm, proper motives, proportional disclosure
+\item \textbf{Risks}: Retaliation, career damage, legal consequences, personal/financial stress, social isolation
+\item \textbf{Protections}: Legal protections (varies by jurisdiction), professional code support, internal policies, anonymous reporting
+\end{itemize}
+
+\subsection{Conflict of Interest}
+\begin{itemize}
+\item \textbf{Types}: Financial, personal relationships, competing loyalties, gifts/favors, outside employment
+\item \textbf{Managing}: Disclose, recuse, avoid, follow policies, seek guidance
+\item \textbf{Examples in Computing}: Working for competitor, using company resources for personal projects, accepting vendor gifts, hiring friends/family improperly
+\end{itemize}
+
+\subsection{Professional Liability}
+\begin{itemize}
+\item \textbf{Types}: Legal responsibility for actions, malpractice in services, negligence in design/implementation, product liability for defects
+\item \textbf{Limiting Liability}: Professional liability insurance, clear contracts, proper documentation, following industry standards, regular professional development
+\item \textbf{Responsibility Chain}: Designers, Developers, Testers, Managers, Organizations all share responsibility
+\end{itemize}
+
+\section{ISLAMIC ETHICS}
+
+\subsection{Foundational Principles}
+\begin{itemize}
+\item \textbf{Tawheed} (Oneness): Belief in absolute oneness of Allah
+\item \textbf{Accountability} (Hisab): Belief in accountability before Allah
+\item \textbf{Justice} (Adl): Fairness and equity in all dealings
+\item \textbf{Trust} (Amanah): Fulfilling responsibilities and obligations
+\item \textbf{Truthfulness} (Sidq): Honesty in words and actions
+\item \textbf{Compassion} (Rahmah): Showing mercy and kindness
+\item \textbf{Moderation} (Wasatiyyah): Avoiding extremes, balanced approach
+\end{itemize}
+
+\subsection{Core Ethical Values}
+\begin{itemize}
+\item Honesty and Integrity, Justice and Fairness, Compassion and Mercy
+\item Respect and Dignity, Responsibility, Humility, Patience (Sabr)
+\item Gratitude (Shukr), Forgiveness, Generosity
+\end{itemize}
+
+\subsection{Sources of Islamic Ethics}
+\begin{enumerate}
+\item \textbf{Quran (Holy Book)}: Primary source of Islamic guidance
+\item \textbf{Sunnah (Prophetic Tradition)}: Teachings, actions, and approvals of Prophet Muhammad (peace be upon him)
+\item \textbf{Ijma (Consensus)}: Agreement of Islamic scholars
+\item \textbf{Qiyas (Analogical Reasoning)}: Applying established principles to new situations
+\item \textbf{Ijtihad (Independent Reasoning)}: Scholarly effort to derive rulings for new situations
+\end{enumerate}
+
+\subsection{Islamic Business Ethics}
+\begin{itemize}
+\item \textbf{Lawful Earnings (Halal)}: Earning through permissible means only
+\item \textbf{Honesty in Trade}: Truthful representation, fair pricing, full disclosure
+\item \textbf{Fair Contracts}: Clear agreements, mutual consent, fulfilling obligations
+\item \textbf{Prohibition of Riba}: Avoiding interest-based transactions
+\item \textbf{Prohibition of Gharar}: Avoiding excessive uncertainty
+\item \textbf{Fair Treatment of Employees}: Fair wages, safe conditions, respect
+\item \textbf{Environmental Responsibility}: Protecting environment, sustainable practices
+\end{itemize}
+
+\subsection{Islamic Professional Ethics}
+\begin{itemize}
+\item Professional Competence, Work Ethics (punctuality, reliability, diligence)
+\item Honesty and Integrity, Fair Treatment, Responsibility
+\item Respect for Authority, Teamwork and Cooperation, Avoiding Harm
+\end{itemize}
+
+\subsection{Islamic Ethics in Technology and IT}
+\begin{itemize}
+\item Ethical Use: Using technology for beneficial purposes, avoiding harm
+\item Privacy and Data Protection: Respecting privacy, protecting data, maintaining confidentiality
+\item Intellectual Property: Respecting IP rights, not engaging in piracy, giving credit
+\item Honest Representation: Accurate representation, not misleading users
+\item Avoiding Harmful Content: Not creating/distributing harmful content
+\item Fair Access: Ensuring fair access, not discriminating, promoting digital inclusion
+\item Environmental Considerations: Considering environmental impact, sustainable practices
+\item Social Responsibility: Using technology for social good, ethical innovation
+\end{itemize}
+
+\section{HUMAN RIGHTS}
+
+\subsection{Core Principles}
+\begin{itemize}
+\item \textbf{Universality}: Rights for all
+\item \textbf{Inalienability}: Cannot be taken away
+\item \textbf{Equality/Non-discrimination}: Equal treatment
+\item \textbf{Accountability}: Duty-bearers responsible
+\item \textbf{Rule of Law}: Legal framework
+\end{itemize}
+
+\subsection{Key Instruments}
+\begin{itemize}
+\item \textbf{UDHR (1948)}: Art.1 (dignity/equality), Art.2 (non-discrimination), Art.3 (life/liberty), Art.12 (privacy), Art.19 (expression), Art.23/25 (work, adequate living)
+\item \textbf{ICCPR / ICESCR}: Civil-political vs. economic-social-cultural rights
+\item \textbf{Pakistan Constitution}: Arts. 8--28 (fundamental rights), Art.19 (speech w/ restrictions), Art.19A (right to information), Art.25 (equality)
+\end{itemize}
+
+\subsection{Categories (``Generations'') of Rights}
+\begin{itemize}
+\item \textbf{1st}: Civil \& political (life, liberty, fair trial, expression, privacy)
+\item \textbf{2nd}: Economic, social, cultural (work, education, health, housing)
+\item \textbf{3rd}: Collective/solidarity (development, environment, self-determination)
+\end{itemize}
+
+\subsection{Duties \& Duty-Bearers}
+\begin{itemize}
+\item \textbf{State}: Respect, Protect, Fulfill
+\item \textbf{Corporate (UNGPs)}: Respect rights, human-rights due diligence, enable remedy
+\item \textbf{Professionals}: Avoid complicity; uphold privacy/fairness/security
+\end{itemize}
+
+\subsection{Tech/Digital Rights Focus}
+\begin{itemize}
+\item \textbf{Privacy \& Data}: Minimization, consent, purpose limitation, security, retention limits; risks---surveillance, breaches, secondary use, re-ID
+\item \textbf{Expression \& Information}: Art.19/19A; ensure due process for takedown/appeal; proportional restrictions
+\item \textbf{Non-discrimination}: Algorithmic bias $\rightarrow$ need fairness, explainability, bias audits
+\item \textbf{Due process}: Notice and ability to contest automated decisions
+\item \textbf{Access \& Inclusion}: Digital divide, affordability, accessibility (WCAG), localization
+\item \textbf{Safety/Security}: Cybersecurity as an enabler of rights; protection from harassment/stalking
+\end{itemize}
+
+\subsection{Limitations on Rights}
+\begin{itemize}
+\item Must be \textbf{lawful, necessary, proportionate, for legitimate aim} (e.g., security, public order, rights of others)
+\item No arbitrary/broad restrictions
+\end{itemize}
+
+\subsection{Business \& Human Rights (Tech)}
+\begin{itemize}
+\item \textbf{UNGPs}: Protect--Respect--Remedy; due diligence; grievance mechanisms
+\item Areas: content moderation, surveillance tech, ad targeting, AI/ML bias, supply chain labor, transparency reports
+\end{itemize}
+
+\section{BUSINESS ORGANIZATIONS \& STRUCTURES (Q3 - 15 marks)}
+
+\subsection{Veil of Incorporation}
+\begin{itemize}
+\item \textbf{Definition}: Legal principle separating company from owners (limited liability)
+\item \textbf{Purpose}: Protects owners' personal assets from company debts
+\end{itemize}
+
+\subsection{Business Structure Comparison}
+
+\begin{longtable}{p{2.5cm}p{2.5cm}p{2.5cm}p{2.5cm}p{2.5cm}p{2.5cm}}
+\toprule
+\textbf{Feature} & \textbf{Sole Proprietorship} & \textbf{Partnership/AOP} & \textbf{Public Ltd.} & \textbf{SMC Pvt. Ltd.} & \textbf{Private Ltd.} \\
+\midrule
+\textbf{Owners} & 1 & 2+ (no upper limit) & 7+ (unlimited) & 1 & 2--100 \\
+\textbf{Directors} & N/A & N/A & 3+ & 1 (must nominate 2 alternates) & 2+ \\
+\textbf{Legal Entity} & No (not separate) & No (not separate) & Yes & Yes & Yes \\
+\textbf{Liability} & Unlimited & Unlimited (joint and several) & Limited & Limited & Limited \\
+\textbf{Suffix} & None & None & Limited (Ltd.) & (SMC-Private) Limited & Private Limited (Pvt Ltd) \\
+\textbf{Prospectus} & No & No & Required & Not allowed & Not required \\
+\textbf{Public Subscription} & No & No & Allowed & Not allowed & Not allowed \\
+\textbf{Company Secretary} & No & No & Required & Required (sole director cannot be) & Optional \\
+\textbf{Taxation} & Personal income tax & AOP pays tax once & Corporate tax & Corporate tax & Corporate tax \\
+\textbf{Registration} & FBR (if income threshold) & FBR + Registrar of Firms & SECP & SECP & SECP \\
+\bottomrule
+\end{longtable}
+
+\subsection{Employment Contract Clauses}
+\begin{itemize}
+\item \textbf{Non-compete Clause}: Prevents employees (current AND former) from working for direct competitors of a business for a period of time
+\item \textbf{Non-solicitation Clause}: Prevents employees from encouraging other employees AND/OR organization's customers to move to another company
+\end{itemize}
+
+\subsection{Key Requirements}
+\begin{itemize}
+\item \textbf{SMC}: Must nominate 2 individuals (one nominee director, one alternate); must appoint company secretary (sole director cannot be secretary)
+\item \textbf{Public Ltd.}: 7+ members, 3+ directors, prospectus required, public subscription allowed
+\item \textbf{Private Ltd.}: 2--100 shareholders, 2+ directors, not publicly traded
+\item \textbf{Partnership/AOP}: Partnership Deed defines ownership, profit/loss division, decision-making; registered with FBR and Registrar of Firms
+\end{itemize}
+
+\subsection{Partnership Deed (10 Key Provisions)}
+\begin{enumerate}
+\item Firm name and business type
+\item Partners' names and addresses
+\item Capital contribution by each partner
+\item Profit and loss sharing ratio
+\item Decision-making powers
+\item Rules for adding/removing partners
+\item Handling partner's death/withdrawal
+\item Duration (fixed term or indefinite)
+\item Banking arrangements
+\item Dissolution procedure
+\end{enumerate}
+
+\subsection{Types of Organizations}
+\begin{itemize}
+\item \textbf{Public Sector}: Owned and operated by government (NADRA, PIA, State Bank of Pakistan)
+\item \textbf{Private Sector}: Owned by individuals or private groups (DPL, Systems Ltd, TPL Corp)
+\item \textbf{Non-Profit (NPO)}: Operates for social welfare (Edhi Foundation, Shaukat Khanum)
+\item \textbf{International}: Operate across borders (UNDP Pakistan, WHO)
+\end{itemize}
+
+\subsection{Key Considerations in Choosing Business Structure}
+\begin{enumerate}
+\item Liability Protection: Need for limited liability vs. personal responsibility
+\item Tax Implications: Tax treatment, planning opportunities, compliance
+\item Capital Requirements: Ability to raise capital, investment needs
+\item Management and Control: Desired control level, decision-making structure
+\item Regulatory Compliance: Reporting requirements, compliance costs
+\item Business Goals: Growth plans, exit strategy, long-term objectives
+\item Number of Owners: Single vs. multiple owners, partnership considerations
+\end{enumerate}
+
+\section{ORGANIZATIONAL STRUCTURE \& DESIGN (Q6 - 10 marks)}
+
+\subsection{Types of Organizational Structures}
+
+\begin{longtable}{p{2.5cm}p{4cm}p{3cm}p{3cm}}
+\toprule
+\textbf{Type} & \textbf{Description} & \textbf{Best For} & \textbf{Example} \\
+\midrule
+\textbf{Simple} & Few layers, central decision-maker & Small startups & Small teams \\
+\textbf{Functional} & Organized by departments (HR, Tech, Sales) & Mid-sized companies & Department-based \\
+\textbf{Divisional/Product} & Based on products/clients & Product-focused orgs & Product teams \\
+\textbf{Matrix} & Dual reporting (functional + project) & Complex projects & Consulting firms \\
+\textbf{Flat} & Minimal hierarchy, wide control span & Innovation-focused & DPL, Netflix \\
+\textbf{Hierarchical/Tall} & Many levels, clear authority chain & Traditional corporates & Banks, NADRA \\
+\textbf{Network} & Relies on external partners & Outsourcing models & Virtual companies \\
+\textbf{Team-based} & Built around teams & Agile organizations & Cross-functional teams \\
+\bottomrule
+\end{longtable}
+
+\subsection{Key Elements of Structure}
+
+\begin{longtable}{p{3.5cm}p{5cm}p{5cm}}
+\toprule
+\textbf{Element} & \textbf{Meaning} & \textbf{Example} \\
+\midrule
+\textbf{Work Specialization} & Division of tasks into specific jobs & Separate DevOps, Design, Sales \\
+\textbf{Departmentalization} & Grouping jobs (function, product, geography) & IT Dept., Product Teams \\
+\textbf{Chain of Command} & Who reports to whom & CEO $\rightarrow$ Managers $\rightarrow$ Teams \\
+\textbf{Span of Control} & Number of people manager supervises & Wide = autonomy; Narrow = control \\
+\textbf{Centralization} & Where decisions made & Centralized vs. Decentralized \\
+\textbf{Formalization} & Degree of rules and procedures & High = banks; Low = startups \\
+\bottomrule
+\end{longtable}
+
+\subsection{Factors Affecting Structure}
+
+\begin{longtable}{p{2.5cm}p{4cm}p{4cm}}
+\toprule
+\textbf{Factor} & \textbf{Impact} & \textbf{Example} \\
+\midrule
+\textbf{Strategy} & Structure must support goals & Innovation $\rightarrow$ flat; Control $\rightarrow$ hierarchical \\
+\textbf{Size} & Larger = more specialization & 10 people = simple; 10,000 = complex \\
+\textbf{Technology} & Complexity affects coordination & Software = agile teams; Manufacturing = process-based \\
+\textbf{Environment} & Stable vs. dynamic & Government = stable; Tech = dynamic \\
+\textbf{Culture \& Leadership} & Values shape structure & People-first $\rightarrow$ flat; Control $\rightarrow$ tall \\
+\textbf{Geography} & Multiple regions $\rightarrow$ divisional & Multinationals = geographic divisions \\
+\textbf{Legal/Regulatory} & Some sectors require formal hierarchies & Regulated industries = layered \\
+\bottomrule
+\end{longtable}
+
+\subsection{Tall vs. Flat Organizations}
+
+\begin{longtable}{p{2.5cm}p{5cm}p{5cm}}
+\toprule
+\textbf{Feature} & \textbf{Tall} & \textbf{Flat} \\
+\midrule
+\textbf{Levels} & Many & Few \\
+\textbf{Decision Speed} & Slow & Fast \\
+\textbf{Control} & Tight supervision & Empowered teams \\
+\textbf{Communication} & Top-down & Open and horizontal \\
+\textbf{Example} & NADRA, Banks & DPL, Netflix \\
+\textbf{Characteristics} & Bureaucratic, hierarchical, formal & Flexible, informal, empowered \\
+\bottomrule
+\end{longtable}
+
+\subsection{For Q6 (Designing Structure):}
+\begin{itemize}
+\item Analyze: Products, geography, centralized functions
+\item Suggest: Likely Matrix or Hybrid structure
+\item Justify: Based on strategy, size, technology, geography
+\item Draw: Organization chart showing reporting relationships
+\end{itemize}
+
+\subsection{Example Scenario: Kangaroo Corp (Multi-product, Multi-geography)}
+\begin{itemize}
+\item \textbf{Products}: Multiple software packages (Farming Basics, Premium, Analytics)
+\item \textbf{Geography}: Multiple countries (Australia, USA, Pakistan)
+\item \textbf{Centralized Functions}: Software development, customer services, Technology (CTO), PMO
+\item \textbf{Country Operations}: Business development, sales, marketing at country level
+\item \textbf{Structure Recommendation}: Matrix or Hybrid (product divisions + geographic divisions + centralized functions)
+\item \textbf{Justification}: Need to balance product focus, geographic responsiveness, and centralized efficiency
+\item \textbf{Key Elements}: 
+\begin{itemize}
+\item Product divisions (FB, FP, FA) with flat hierarchy
+\item Geographic sub-offices (USA, Pakistan) for country operations
+\item Centralized head office (Sydney) for development and customer services
+\item Centralized Technology (CTO) and PMO for technical/project management
+\end{itemize}
+\end{itemize}
+
+\section{ORGANIZATIONAL CULTURE}
+
+\subsection{What Is Organizational Culture?}
+\begin{itemize}
+\item \textbf{Definition}: The shared system of values, beliefs, norms, and behaviors that shapes how people within an organization think, feel, and act
+\item \textbf{Metaphor}: The ``personality'' of an organization
+\end{itemize}
+
+\subsection{Components}
+\begin{itemize}
+\item \textbf{Values}: What the organization considers important
+\item \textbf{Beliefs}: Assumptions about how things work
+\item \textbf{Norms}: Unwritten rules of behavior
+\item \textbf{Behaviors}: Observable actions and practices
+\item \textbf{Symbols}: Visible representations of culture
+\end{itemize}
+
+\subsection{What Do Cultures Do?}
+\begin{enumerate}
+\item \textbf{Defines the Boundary}: Creates distinction between one organization and others
+\item \textbf{Conveys a Sense of Identity}: Helps members understand who they are
+\item \textbf{Facilitates Commitment}: Generates commitment to something larger than self-interest
+\item \textbf{Enhances Stability}: Provides stability to the social system
+\item \textbf{Sense-Making and Control}: Serves as sense-making mechanism and controls employee behavior
+\end{enumerate}
+
+\subsection{Characteristics of Organizational Culture}
+
+\begin{longtable}{p{3.5cm}p{4.5cm}p{4.5cm}}
+\toprule
+\textbf{Characteristic} & \textbf{Description} & \textbf{Example} \\
+\midrule
+\textbf{Innovation \& Risk-taking} & Encourages new ideas and experimentation & DPL teams trying new AI tools \\
+\textbf{Attention to Detail} & Emphasizes precision and quality & QA and code review processes \\
+\textbf{Outcome Orientation} & Focus on results rather than procedures & Performance based on delivery \\
+\textbf{People Orientation} & Values employee well-being and respect & Flat hierarchy, flexible work \\
+\textbf{Team Orientation} & Promotes collaboration & Cross-functional product pods \\
+\textbf{Aggressiveness} & Competitive and ambitious attitude & Sales pursuing bold targets \\
+\textbf{Stability} & Desire for order and consistency & Corporate HR processes \\
+\bottomrule
+\end{longtable}
+
+\subsection{Schein's Model of Organizational Culture (Three Levels)}
+
+\begin{longtable}{p{3cm}p{3.5cm}p{3.5cm}p{3.5cm}}
+\toprule
+\textbf{Level} & \textbf{Description} & \textbf{Examples} & \textbf{Characteristics} \\
+\midrule
+\textbf{Artifacts and Symbols} (Visible) & The ``visible'' symbols of the culture & Logos, architecture, structure, business processes & Observable, tangible, easy to see \\
+\textbf{Espoused Values} (Stated) & The company's declared set of values and norms & Mission statements, value statements & Stated beliefs, official values \\
+\textbf{Basic Underlying Assumptions} (Deepest) & The bedrock of organizational culture & Deeply embedded beliefs, unconscious assumptions & Deeply embedded, often unconscious, hardest to change \\
+\bottomrule
+\end{longtable}
+
+\subsection{Do Organizations Have Uniform Culture?}
+\begin{itemize}
+\item \textbf{Dominant Culture}: Expresses the core values shared by a majority of the organization's members
+\item \textbf{Subcultures}: Minicultures within an organization, typically defined by department designations and geographical separation
+\item \textbf{Core Values}: The primary or dominant values accepted throughout the organization
+\item \textbf{Strong Culture}: A culture in which core values are intensely held and widely shared
+\end{itemize}
+
+\subsection{Relationship Between Structure and Culture}
+\begin{itemize}
+\item \textbf{How Structure Influences Culture}: Hierarchical structures $\rightarrow$ Formal culture; Flat structures $\rightarrow$ Informal culture
+\item \textbf{How Culture Influences Structure}: Innovation culture $\rightarrow$ Flexible structures; Stability culture $\rightarrow$ Hierarchical structures
+\item \textbf{Alignment}: Structure and culture should align; mismatch creates problems
+\end{itemize}
+
+\section{ORGANIZATIONAL COMMUNICATION (Q5 - 10 marks)}
+
+\subsection{Grapevine Communication}
+\begin{itemize}
+\item \textbf{Definition}: Informal communication network
+\item \textbf{Why Grapevine Thrives} (5 marks):
+\begin{enumerate}
+\item Response to important situations
+\item Ambiguity in formal communication
+\item Conditions that arouse anxiety
+\item Fills information gaps
+\item Creates sense of closeness and friendship
+\item Fast information spread
+\item Lack of formal communication
+\end{enumerate}
+\end{itemize}
+
+\subsection{Managing Grapevine/Rumors (5 marks)}
+\begin{enumerate}
+\item \textbf{Provide information regularly} (best defense)
+\item Explain actions and decisions
+\item Don't shoot the messenger
+\item Maintain open communication channels
+\item Regular updates and transparency
+\item Address concerns promptly
+\item Create formal communication channels
+\item Encourage employees to come forward
+\end{enumerate}
+
+\subsection{Communication Process Model}
+\begin{enumerate}
+\item Sender $\rightarrow$ 2. Encoding $\rightarrow$ 3. Message $\rightarrow$ 4. Channel $\rightarrow$ 5. Decoding $\rightarrow$ 6. Receiver $\rightarrow$ 7. Feedback
+\end{enumerate}
+\begin{itemize}
+\item \textbf{Noise}: Interference (physical, psychological, semantic)
+\end{itemize}
+
+\subsection{Channel Richness}
+\begin{itemize}
+\item \textbf{Rich}: Face-to-face (highest), video conferencing, telephone
+\item \textbf{Moderate}: Email, instant messaging, written documents
+\item \textbf{Lean}: Bulletins, memos, formal reports
+\end{itemize}
+
+\subsection{Communication Networks}
+
+\begin{longtable}{p{2.5cm}p{3.5cm}p{4cm}p{4cm}}
+\toprule
+\textbf{Network} & \textbf{Structure} & \textbf{Characteristics} & \textbf{Best For} \\
+\midrule
+\textbf{Chain} & Linear: A$\rightarrow$B$\rightarrow$C$\rightarrow$D$\rightarrow$E & Sequential, slow, high accuracy & Assembly lines \\
+\textbf{Wheel} & Central hub & Fast, centralized, leader satisfaction & Strong leader, crisis \\
+\textbf{All-Channel} & Everyone with everyone & Fast, high satisfaction, complex tasks & Problem-solving \\
+\textbf{Circle} & Adjacent members only & Moderate speed, moderate satisfaction & Committees \\
+\bottomrule
+\end{longtable}
+
+\subsection{Barriers to Communication}
+\begin{itemize}
+\item \textbf{Physical}: Distance, noise, poor technology, time zones
+\item \textbf{Psychological}: Perceptions, emotions, attitudes, stress
+\item \textbf{Language/Semantic}: Jargon, technical terms, ambiguity
+\item \textbf{Cultural}: Different values, norms, styles
+\item \textbf{Organizational}: Hierarchy, status, information overload
+\item \textbf{Personal}: Poor listening, defensiveness, biases
+\end{itemize}
+
+\subsection{Active Listening Techniques}
+\begin{itemize}
+\item \textbf{Paraphrasing}: Restate in your own words
+\item \textbf{Reflecting feelings}: Acknowledge emotions
+\item \textbf{Asking open-ended questions}: Encourage elaboration
+\item \textbf{Summarizing}: Review key points
+\item \textbf{Nonverbal encouragement}: Nodding, eye contact, appropriate expressions
+\end{itemize}
+
+\section{GROUP DYNAMICS \& COMMUNICATION}
+
+\subsection{Tuckman's Five-Stage Model}
+\begin{enumerate}
+\item \textbf{Forming}: High dependence, low trust, unclear roles
+\item \textbf{Storming}: Conflict, tension, power struggles
+\item \textbf{Norming}: Cooperation, trust building, role clarity
+\item \textbf{Performing}: High performance, synergy, goal achievement
+\item \textbf{Adjourning}: Reflection, transition, disbanding
+\end{enumerate}
+
+\subsection{Group Decision-Making Techniques}
+
+\begin{longtable}{p{2.5cm}p{4cm}p{3.5cm}p{3.5cm}}
+\toprule
+\textbf{Technique} & \textbf{Process} & \textbf{Best For} & \textbf{Benefits} \\
+\midrule
+\textbf{Brainstorming} & Generate ideas without criticism & Creative solutions & Participation, innovation \\
+\textbf{Nominal Group} & Silent generation $\rightarrow$ sharing $\rightarrow$ discussion $\rightarrow$ voting & Structured input needed & Prevents dominance, all voices heard \\
+\textbf{Delphi} & Anonymous expert input $\rightarrow$ summary $\rightarrow$ feedback & Expert knowledge, dispersed & Avoids pressure, expert input \\
+\textbf{Consensus} & All agree to support decision & High commitment needed & High buy-in, shared ownership \\
+\textbf{Majority Vote} & Decision by majority rule & Fast decision needed & Quick, clear outcome \\
+\textbf{Authority} & Leader makes decision & Urgent, clear accountability & Fastest, clear responsibility \\
+\bottomrule
+\end{longtable}
+
+\subsection{Groupthink Symptoms}
+\begin{itemize}
+\item Illusion of invulnerability, collective rationalization, belief in inherent morality
+\item Stereotyped views of out-groups, direct pressure on dissenters, self-censorship
+\item Illusion of unanimity, mindguards
+\end{itemize}
+
+\subsection{Group Structure Elements}
+\begin{enumerate}
+\item \textbf{Roles}: Task roles, Maintenance roles, Individual roles
+\item \textbf{Norms}: Shared expectations about behavior (explicit and implicit)
+\item \textbf{Status}: Relative position or rank in group (formal and informal)
+\item \textbf{Cohesiveness}: Forces keeping members in group
+\item \textbf{Size}: Affects interaction, communication, decision-making
+\end{enumerate}
+
+\subsection{Advantages of Group Decision-Making}
+\begin{itemize}
+\item More information and knowledge
+\item Diverse perspectives and alternatives
+\item Better understanding and acceptance
+\item Legitimacy and validity
+\item Synergy through collaboration
+\end{itemize}
+
+\subsection{Disadvantages of Group Decision-Making}
+\begin{itemize}
+\item Time-consuming (slower than individual)
+\item Groupthink: Pressure for conformity
+\item Dominance by strong personalities
+\item Ambiguous responsibility
+\item Social loafing: Some contribute less
+\end{itemize}
+
+\section{MANAGEMENT FUNCTIONS - POLC (Q1: Q12, Q25)}
+
+\subsection{POLC Framework}
+
+\begin{longtable}{p{2.5cm}p{4cm}p{6cm}}
+\toprule
+\textbf{Function} & \textbf{Definition} & \textbf{Key Activities} \\
+\midrule
+\textbf{Planning} & Goals defined and strategy established & Setting goals, developing strategies, creating action plans \\
+\textbf{Organizing} & Resources gathered and tasks arranged & Arranging resources, allocating tasks, creating structure \\
+\textbf{Leading} & Motivating and directing people & Influencing, inspiring, guiding, communicating \\
+\textbf{Controlling} & Monitoring performance and making corrections & Measuring performance, comparing to standards, taking corrective action \\
+\bottomrule
+\end{longtable}
+
+\subsection{Management Levels}
+
+\begin{longtable}{p{3.5cm}p{4cm}p{3.5cm}p{2.5cm}}
+\toprule
+\textbf{Level} & \textbf{Focus} & \textbf{Examples} & \textbf{Time Horizon} \\
+\midrule
+\textbf{Top Management} & Strategic decisions, long-term vision & CTO, VP Engineering & Long-term \\
+\textbf{Middle Management} & Tactical decisions, department coordination & Engineering Manager, Product Manager & Medium-term \\
+\textbf{First-Line Management} & Operational decisions, daily supervision & Team Lead, Project Manager & Short-term \\
+\bottomrule
+\end{longtable}
+
+\subsection{Management Skills}
+\begin{itemize}
+\item \textbf{Technical Skills}: Knowledge of specific tools, technologies, processes
+\item \textbf{Human Skills}: Ability to work with and through people (interpersonal)
+\item \textbf{Conceptual Skills}: Ability to see big picture and think strategically
+\end{itemize}
+
+\subsection{POLC - Key Points for MCQs}
+\begin{itemize}
+\item \textbf{Planning}: Goals defined and strategy established (NOT monitoring employees, gathering resources, or exchanging information)
+\item \textbf{Organizing}: Resources gathered and tasks arranged
+\item \textbf{Leading}: Motivating and directing people
+\item \textbf{Controlling}: Monitoring performance and making corrections
+\item Management functions fall into: Planning, Organizing, Controlling, Leading
+\end{itemize}
+
+\section{LEADERSHIP \& MENTORSHIP}
+
+\subsection{Leadership vs. Management}
+
+\begin{longtable}{p{2.5cm}p{5cm}p{5cm}}
+\toprule
+\textbf{Aspect} & \textbf{Management} & \textbf{Leadership} \\
+\midrule
+\textbf{Focus} & Processes, efficiency, stability & People, vision, change \\
+\textbf{Goal} & Doing things right & Doing the right things \\
+\textbf{Time} & Short-term, operational & Long-term, strategic \\
+\textbf{Risk} & Minimize risk & Take calculated risks \\
+\textbf{Change} & Maintain stability & Drive change \\
+\bottomrule
+\end{longtable}
+
+\subsection{Leadership Styles}
+\begin{enumerate}
+\item \textbf{Autocratic}: Leader makes decisions alone
+\item \textbf{Democratic}: Leader involves team in decision-making
+\item \textbf{Laissez-Faire}: Leader provides minimal guidance
+\item \textbf{Transformational}: Leader inspires through vision and charisma
+\item \textbf{Transactional}: Leader uses rewards/punishments
+\item \textbf{Servant Leadership}: Leader focuses on serving and developing team
+\item \textbf{Situational}: Leader adapts style based on situation and team maturity
+\end{enumerate}
+
+\subsection{Leadership Theories}
+\begin{itemize}
+\item \textbf{Trait Theory}: Leaders are born with certain traits (intelligence, charisma)
+\item \textbf{Behavioral Theory}: Leadership is learned through behaviors
+\item \textbf{Contingency Theory}: Effective leadership depends on matching style to situation
+\item \textbf{Transformational Theory}: Leaders transform followers through inspiration
+\end{itemize}
+
+\subsection{Emotional Intelligence in Leadership}
+\begin{itemize}
+\item \textbf{Self-Awareness}: Understanding emotions, strengths, weaknesses
+\item \textbf{Self-Regulation}: Managing emotional responses
+\item \textbf{Motivation}: Intrinsic drive to achieve goals
+\item \textbf{Empathy}: Understanding others' emotions and perspectives
+\item \textbf{Social Skills}: Building relationships and managing social situations
+\end{itemize}
+
+\subsection{Mentorship Types}
+\begin{itemize}
+\item \textbf{Formal}: Structured program with assigned pairs
+\item \textbf{Informal}: Natural relationship that develops organically
+\item \textbf{Peer}: Colleagues at similar levels mentoring each other
+\item \textbf{Reverse}: Junior mentors senior (often on new technologies)
+\item \textbf{Group}: One mentor works with multiple mentees
+\item \textbf{Virtual}: Relationship conducted online/remotely
+\end{itemize}
+
+\subsection{Mentorship Benefits}
+\begin{itemize}
+\item \textbf{For Mentees}: Career guidance, skill development, networking, confidence, faster progression
+\item \textbf{For Mentors}: Personal satisfaction, coaching skills development, fresh perspectives, legacy
+\item \textbf{For Organizations}: Knowledge retention, employee development, succession planning, culture building
+\end{itemize}
+
+\subsection{Mentorship vs. Coaching vs. Training}
+
+\begin{longtable}{p{2.5cm}p{4cm}p{4cm}p{4cm}}
+\toprule
+\textbf{Aspect} & \textbf{Training} & \textbf{Coaching} & \textbf{Mentorship} \\
+\midrule
+\textbf{Duration} & Short-term & Short-term & Long-term \\
+\textbf{Focus} & Specific skills & Performance improvement & Holistic development \\
+\textbf{Relationship} & Instructor-student & Coach-coachee & Mentor-mentee \\
+\textbf{Scope} & Skill-focused & Goal-focused & Career-focused \\
+\bottomrule
+\end{longtable}
+
+\section{CONFLICT MANAGEMENT \& NEGOTIATION}
+
+\subsection{Conflict Management Styles (Thomas-Kilmann)}
+
+\begin{longtable}{p{2.5cm}p{2.5cm}p{3cm}p{6cm}}
+\toprule
+\textbf{Style} & \textbf{Assertiveness} & \textbf{Cooperativeness} & \textbf{When Appropriate} \\
+\midrule
+\textbf{Competing} & High & Low & Quick decision, protecting vital interests \\
+\textbf{Accommodating} & Low & High & Issue more important to others, preserving harmony \\
+\textbf{Avoiding} & Low & Low & Issue trivial, cooling-off needed \\
+\textbf{Collaborating} & High & High & Both concerns important, commitment needed \\
+\textbf{Compromising} & Moderate & Moderate & Goals moderately important, equal power \\
+\bottomrule
+\end{longtable}
+
+\subsection{Types of Conflict}
+\begin{itemize}
+\item \textbf{Task Conflict}: Disagreement about work content/goals/methods (can be constructive)
+\item \textbf{Relationship Conflict}: Personal incompatibilities, personality clashes (usually destructive)
+\item \textbf{Process Conflict}: Disagreement about how work should be done (can be constructive or destructive)
+\item \textbf{Value Conflict}: Fundamental differences in beliefs/principles
+\end{itemize}
+
+\subsection{Conflict Resolution Process}
+\begin{enumerate}
+\item Acknowledge the Conflict
+\item Define the Problem
+\item Gather Information
+\item Generate Options
+\item Evaluate and Select Solution
+\item Implement and Follow Up
+\end{enumerate}
+
+\subsection{Negotiation Process}
+\begin{enumerate}
+\item \textbf{Preparation}: Define goals, research other party, determine BATNA, set target/reservation/opening
+\item \textbf{Opening}: Establish rapport, state position, listen, identify agreement/disagreement
+\item \textbf{Bargaining}: Make concessions strategically, focus on interests not positions, explore options
+\item \textbf{Closing}: Summarize agreements, confirm understanding, put in writing
+\item \textbf{Implementation}: Follow through, monitor progress, maintain relationship
+\end{enumerate}
+
+\subsection{BATNA (Best Alternative To a Negotiated Agreement)}
+\begin{itemize}
+\item Your best option if negotiations fail
+\item Determines your \textbf{reservation point} (minimum acceptable outcome)
+\item \textbf{Stronger BATNA = More leverage}
+\end{itemize}
+
+\subsection{Types of Negotiation}
+\begin{itemize}
+\item \textbf{Distributive (Zero-Sum)}: Fixed pie, one party's gain is another's loss (e.g., salary)
+\item \textbf{Integrative (Win-Win)}: Expanding the pie, creating value for all (e.g., partnerships)
+\end{itemize}
+
+\section{INTERVIEW SKILLS}
+
+\subsection{STAR Method}
+\begin{itemize}
+\item \textbf{S}ituation: Set the context and background
+\item \textbf{T}ask: Describe what needed to be accomplished
+\item \textbf{A}ction: Explain what you specifically did
+\item \textbf{R}esult: Share the outcome and what you learned
+\end{itemize}
+
+\subsection{Common Interview Questions}
+\begin{enumerate}
+\item \textbf{``Tell me about yourself''}: 2--3 minutes, professional, relevant, connect to position
+\item \textbf{``What are your strengths?''}: Relevant to job, specific examples, show benefit
+\item \textbf{``What are your weaknesses?''}: Real but manageable, show growth, steps to improve
+\item \textbf{``Why do you want this job?''}: Show research, connect skills/goals, alignment with values
+\item \textbf{``Why should we hire you?''}: Highlight unique qualifications, match to requirements, differentiate
+\item \textbf{``Tell me about a challenge''}: Use STAR, show problem-solving, learning, growth
+\item \textbf{``Where do you see yourself in 5 years?''}: Show ambition but realistic, align with company growth
+\item \textbf{``Do you have any questions?''}: Always have questions, show interest, ask about role/team/company
+\end{enumerate}
+
+\subsection{Body Language}
+\begin{itemize}
+\item \textbf{Positive}: Eye contact (60--70\%), sit up straight, natural gestures, smile appropriately, clear voice, firm handshake
+\item \textbf{Negative to Avoid}: Crossing arms, avoiding eye contact, fidgeting, slouching, checking phone
+\end{itemize}
+
+\subsection{Technical Interview Preparation (IT)}
+\begin{itemize}
+\item Review fundamentals (programming, data structures, algorithms, system design)
+\item Practice coding (LeetCode, HackerRank, CodeSignal)
+\item Review your projects (be ready to discuss technical decisions, architecture, challenges)
+\item Problem-solving approach: Think out loud, ask clarifying questions, start with brute force then optimize
+\end{itemize}
+
+\part{MEDIUM PRIORITY TOPICS (25 Marks)}
+
+\section{BUSINESS MODELS \& REVENUE MODELS (Q1: Q1, Q20, Q24)}
+
+\subsection{Key Definitions}
+\begin{itemize}
+\item \textbf{Revenue Model}: Framework for generating income (NOT same as business model)
+\item \textbf{Business Model}: Overall approach to creating, delivering, and capturing value
+\item \textbf{Value Proposition}: Promise of value to be delivered to customer (NOT same as business model or revenue model)
+\end{itemize}
+
+\subsection{Common Business Models}
+
+\begin{longtable}{p{2.5cm}p{5cm}p{4cm}}
+\toprule
+\textbf{Model} & \textbf{Description} & \textbf{Example} \\
+\midrule
+\textbf{Freemium} & Free basic tier, paid premium features & Dropbox, Spotify \\
+\textbf{Donationware} & Software supported by donations & Open source projects \\
+\textbf{Crippleware} & Limited version to encourage purchase & Trial software \\
+\textbf{Subscription/SaaS} & Recurring monthly/annual fees & Microsoft 365, Salesforce \\
+\textbf{Advertising-Supported} & Free to users, revenue from ads & Google, Facebook \\
+\textbf{Marketplace/Platform} & Connects buyers/sellers, commission & Amazon, Uber \\
+\textbf{Usage-Based} & Pay per use (API calls, compute) & AWS, Twilio \\
+\textbf{Product License} & One-time software sale & Traditional enterprise software \\
+\textbf{Licensing \& White-Label} & License technology or provide rebrandable solutions & B2B software licensing \\
+\textbf{Open Source \& Dual Licensing} & Free core code + paid support/hosting/commercial license & MySQL, MongoDB \\
+\textbf{Data-Driven/Analytics} & Sell insights or data products & Analytics platforms \\
+\bottomrule
+\end{longtable}
+
+\subsection{Key Distinctions (Important for MCQs)}
+\begin{itemize}
+\item \textbf{Revenue Model $\neq$ Business Model}: Revenue model is framework for generating income; business model is overall approach to creating/delivering/capturing value
+\item \textbf{Value Proposition $\neq$ Business Model $\neq$ Revenue Model}: Value proposition is promise of value to customer
+\item \textbf{Freemium}: Some features free, advanced features require premium/payment (NOT commission model, donationware, or crippleware)
+\end{itemize}
+
+\subsection{Business Model Canvas (Key Blocks)}
+\begin{itemize}
+\item \textbf{Customer Segments}: Who you serve (B2C, B2B, B2G, multi-sided)
+\item \textbf{Value Proposition}: Which problem you solve and why you're better
+\item \textbf{Channels}: How you reach customers (web, app stores, partners, sales)
+\item \textbf{Customer Relationships}: Self-service, communities, account managers
+\item \textbf{Revenue Streams}: Subscriptions, ads, fees, licenses, services
+\item \textbf{Key Resources}: Team, tech, IP, brand, data
+\item \textbf{Key Activities}: Building, operating, marketing, supporting the product
+\item \textbf{Key Partners}: Cloud providers, payment processors, resellers, integrators
+\item \textbf{Cost Structure}: Salaries, infra, marketing, support, compliance costs
+\end{itemize}
+
+\subsection{Horizontal vs. Vertical IT}
+\begin{itemize}
+\item \textbf{Horizontal}: Generic tools for many industries (email, office suites, generic CRM, infrastructure)
+\item \textbf{Vertical}: Domain-specific solutions (core banking, HIS, airline booking, LMS)
+\end{itemize}
+
+\section{IT INDUSTRY VERTICALS}
+
+\subsection{Major Verticals \& IT Needs}
+
+\begin{longtable}{p{2.5cm}p{5cm}p{5cm}}
+\toprule
+\textbf{Vertical} & \textbf{Key Systems} & \textbf{Priorities} \\
+\midrule
+\textbf{BFSI} & Core banking, payment gateways, trading platforms, fraud/AML/KYC & High security, uptime (99.99\%+), regulatory compliance, auditability \\
+\textbf{Healthcare} & HIS, EHR/EMR, LIS, telemedicine & Patient privacy (PHI), accuracy, device integration, HL7/FHIR standards \\
+\textbf{Telecom} & Billing/charging, CRM, network management, provisioning & Massive event volumes, real-time rating, scalability, lawful intercept \\
+\textbf{Retail/E-Commerce} & POS, inventory, e-commerce platforms, recommendations & UX, checkout speed, seasonal scaling, payment/logistics integration \\
+\textbf{Manufacturing} & ERP, MRP, MES, SCADA, supply chain & Real-time monitoring, optimization, machine integration (IoT) \\
+\textbf{Government} & Citizen ID (NADRA), tax/e-filing, land records, e-governance & Scalability, transparency, security, privacy vs. FOI balance \\
+\textbf{Education} & SIS, LMS, exam platforms, virtual classrooms & Secure exams, scalable content, student records, accessibility \\
+\textbf{Energy/Utilities} & Smart metering, grid monitoring (SCADA), outage management & Reliability, real-time telemetry, cyber-security of critical infrastructure \\
+\textbf{Media/Entertainment} & Streaming platforms, DRM, recommendation engines, game servers & Low-latency delivery, peak-traffic scaling, IP/copyright management \\
+\bottomrule
+\end{longtable}
+
+\subsection{Cross-Cutting Concerns Across Verticals}
+\begin{itemize}
+\item \textbf{Security \& Compliance}: Finance (KYC/AML), healthcare (PHI), telecom (intercept), government (FOI + privacy)
+\item \textbf{Data \& Analytics}: Fraud detection, personalization, operational optimization
+\item \textbf{Cloud \& APIs}: Many vertical products delivered as SaaS/microservices with integration APIs
+\item \textbf{Domain Knowledge}: As important as technical skill for roles like BA, architect, PO in a given vertical
+\end{itemize}
+
+\section{AGILE SOFTWARE DEVELOPMENT}
+
+\subsection{Agile Manifesto - Four Values}
+\begin{enumerate}
+\item \textbf{Individuals and interactions} over processes and tools
+\item \textbf{Working software} over comprehensive documentation
+\item \textbf{Customer collaboration} over contract negotiation
+\item \textbf{Responding to change} over following a plan
+\end{enumerate}
+
+\subsection{Core Principles}
+\begin{itemize}
+\item Deliver working software frequently (weeks rather than months)
+\item Welcome changing requirements (even late in development)
+\item Business people and developers work together daily
+\item Build projects around motivated individuals
+\item Face-to-face conversation is most effective
+\item Working software is primary measure of progress
+\item Sustainable development pace
+\item Continuous attention to technical excellence
+\item Simplicity---maximizing work not done
+\item Self-organizing teams
+\item Regular reflection and adjustment (retrospectives)
+\end{itemize}
+
+\subsection{Scrum Overview}
+
+\textbf{Roles:}
+\begin{itemize}
+\item \textbf{Product Owner}: Owns backlog, prioritizes by value, represents stakeholders
+\item \textbf{Scrum Master}: Facilitates process, removes impediments, protects team
+\item \textbf{Development Team}: Cross-functional, self-organizing, delivers increments
+\end{itemize}
+
+\textbf{Events:}
+\begin{itemize}
+\item \textbf{Sprint} (1--4 weeks): Timeboxed iteration, potentially shippable increment
+\item \textbf{Sprint Planning}: Team selects backlog items, plans work
+\item \textbf{Daily Scrum}: 15-minute daily meeting (What did I do? What will I do? Impediments?)
+\item \textbf{Sprint Review}: Demo of completed work, stakeholder feedback
+\item \textbf{Sprint Retrospective}: Team reflects on process, identifies improvements
+\end{itemize}
+
+\textbf{Artifacts:}
+\begin{itemize}
+\item \textbf{Product Backlog}: Ordered list of all work
+\item \textbf{Sprint Backlog}: Selected items for sprint
+\item \textbf{Increment}: Sum of completed items (must meet Definition of Done)
+\end{itemize}
+
+\subsection{XP (Extreme Programming) Practices}
+\begin{itemize}
+\item \textbf{TDD} (Test-Driven Development): Write tests first
+\item \textbf{Pair Programming}: Two developers work together
+\item \textbf{Continuous Integration}: Frequent code integration and testing
+\item \textbf{Refactoring}: Continuously improve code structure
+\item \textbf{Simple Design}: Design for current needs
+\item \textbf{Collective Code Ownership}: Anyone can modify any code
+\end{itemize}
+
+\subsection{Estimation \& Planning}
+\begin{itemize}
+\item \textbf{Story Points}: Relative estimation (Fibonacci: 1, 2, 3, 5, 8, 13, 21)
+\item \textbf{Velocity}: Story points finished per sprint (used for forecasting)
+\item \textbf{User Stories}: Capture requirements from user's perspective
+\item \textbf{Product Backlog}: Prioritized by value/risk; refined continuously
+\end{itemize}
+
+\subsection{Benefits and Challenges}
+\begin{itemize}
+\item \textbf{Benefits}: Faster, incremental value delivery; better alignment with real user needs; higher transparency and adaptability; continuous improvement
+\item \textbf{Challenges}: Cultural change; risk of misinterpreting Agile as ``no planning/documentation''; coordination harder in large or highly regulated environments; needs discipline and good engineering
+\end{itemize}
+
+\section{COMPUTER CRIMES \& PECA (Q1: Q17, Q18, Q19 | Q4: Q4b, Q4c)}
+
+\subsection{Computer Crime Definition}
+\begin{itemize}
+\item Unlawful activity where computer is \textbf{tool, target, or storage medium}
+\end{itemize}
+
+\subsection{Major Categories}
+\begin{itemize}
+\item \textbf{Unauthorized access \& hacking}: Password attacks, SQLi, XSS, session hijacking, privilege escalation
+\item \textbf{Data crimes}: Theft, copying, leaks, alteration, destruction
+\item \textbf{Malware \& ransomware}: Viruses, worms, trojans, spyware, encryption + ransom
+\item \textbf{Online fraud}: Phishing, scams, crypto fraud, investment scams
+\item \textbf{Identity theft}: Misuse of CNIC, SIM, email, social profiles
+\item \textbf{Harassment \& cyberstalking}: Threats, monitoring, leaking private images
+\item \textbf{Content offences}: Revenge porn, CSAM, hate speech, extremist content
+\item \textbf{Cyber terrorism}: Attacks on critical infrastructure (telecom, NADRA, banks, energy)
+\item \textbf{Social engineering crimes}: Deepfakes, AI voice calls, WhatsApp/OTP scams
+\end{itemize}
+
+\subsection{Technical Attack Lifecycle \& Footprinting}
+\begin{itemize}
+\item \textbf{Footprinting / OSINT}: Collect domain, IP, DNS, tech stack, leaked creds, employee info, public repos/docs
+\item \textbf{Passive} (no direct contact) vs \textbf{active} (scans/probes)
+\item Goals: understand security posture, narrow focus, map networks, find vulnerabilities
+\end{itemize}
+
+\subsection{Business Attacks Purpose (Q4b - 3 marks)}
+\begin{enumerate}
+\item Disrupt operations
+\item Steal data/information
+\item Cause financial harm
+\item Gain competitive advantage
+\item Damage reputation
+\end{enumerate}
+
+\subsection{Jurisdiction Challenges (Q4c - 3 marks)}
+\begin{enumerate}
+\item Borderless nature (multiple countries involved)
+\item Which country's laws apply?
+\item Extradition challenges
+\item Different legal standards
+\item Anonymous attackers (VPN, TOR, crypto)
+\item Cryptocurrency payments hard to trace
+\item Server locations in multiple countries
+\end{enumerate}
+
+\subsection{PECA 2016 - Pakistan's Cybercrime Law}
+
+\begin{longtable}{p{4cm}p{6cm}p{4cm}}
+\toprule
+\textbf{Offence Category} & \textbf{Examples} & \textbf{Penalties} \\
+\midrule
+\textbf{Harassment \& Personal Harm} & Cyberstalking, non-consensual images, explicit content (especially minors) & 3--7 years, Rs. 1--10M \\
+\textbf{Fraud, Forgery \& Identity} & Electronic fraud, identity theft, spoofing, spam, hacking tools & Months to 7 years, tens of thousands to millions \\
+\textbf{System, Data \& Critical Infrastructure} & Unauthorized access, data theft, malware, interception, cyber terrorism & Up to 14 years, Rs. 50M (cyber terrorism) \\
+\bottomrule
+\end{longtable}
+
+\subsection{Criticism of PECA}
+\begin{itemize}
+\item Claimed to be \textbf{over-broad and harsh}, with overlapping offences and disproportionate punishments
+\item Vague wording and wide powers may allow misuse against journalists, activists and ordinary users
+\item Threatens \textbf{freedom of expression} and access to information
+\item Surveillance criteria and content-blocking powers seen as too open-ended
+\item Law mixes \textbf{cybercrime}, \textbf{cyberterrorism} and \textbf{cyberwarfare} in one framework
+\end{itemize}
+
+\subsection{Data Mining \& Related Concepts}
+\begin{itemize}
+\item \textbf{Data Mining}: Process of analyzing data to discover patterns
+\item \textbf{Collaborative Filtering}: Form of data mining (used in recommendations, NOT credit reports or flash cookies)
+\item \textbf{Micro Targeting}: Using data mining to target specific groups (e.g., political campaigns determine voters most likely to support particular candidate)
+\end{itemize}
+
+\section{PROFESSIONAL LICENSING (Q1: Q23 | Q4: Q4a)}
+
+\subsection{Licensing Definition}
+\begin{itemize}
+\item Process by which candidates evaluated to determine readiness to enter profession
+\end{itemize}
+
+\subsection{Purpose of Licensing (Q4a - 3 marks)}
+\begin{enumerate}
+\item Ensure minimum competency
+\item Protect public interest
+\item Regulate profession
+\item Maintain standards
+\item Legal authorization to practice
+\end{enumerate}
+
+\subsection{Related Concepts}
+\begin{itemize}
+\item \textbf{Certification}: Voluntary recognition of skills/knowledge
+\item \textbf{Accreditation}: Recognition of educational institutions/programs
+\end{itemize}
+
+\section{CONTRACTS (Q4: Q4d, Q4e)}
+
+\subsection{Indemnity (Q4d - 3 marks)}
+\begin{itemize}
+\item \textbf{Definition}: Contractual obligation to compensate for loss or damage
+\item Protection against liability
+\item Financial compensation
+\item Risk transfer mechanism
+\end{itemize}
+
+\subsection{Cost-Plus vs. Fixed Price Contracts (Q4e - 3 marks)}
+
+\begin{longtable}{p{2.5cm}p{5cm}p{3cm}p{3cm}}
+\toprule
+\textbf{Type} & \textbf{Description} & \textbf{Risk} & \textbf{Example} \\
+\midrule
+\textbf{Cost-Plus} & Pay actual costs + profit margin & Client bears cost overruns & Software dev: hours + overhead + profit \% \\
+\textbf{Fixed Price} & Agreed price regardless of actual costs & Contractor bears cost overruns & Software project: \$50,000 fixed price \\
+\bottomrule
+\end{longtable}
+
+\subsection{Employment \& Legal Issues}
+\begin{itemize}
+\item \textbf{Firing Employees}: Ethical and legal if employee doesn't perform according to expectation or fails to follow contractual obligations
+\item \textbf{Contractual Obligations}: Employees must fulfill their contractual duties; failure to do so can result in termination
+\end{itemize}
+
+\section{LEGAL SYSTEM OF PAKISTAN (Q1: Q8, Q13, Q14, Q15)}
+
+\subsection{Key Definitions}
+\begin{itemize}
+\item \textbf{Jurisdiction}: Area covered by single legal system and set of laws
+\item \textbf{Succession}: Falls under \textbf{Civil Law}
+\item \textbf{Court System}: 
+\begin{itemize}
+\item Civil courts fall directly under High Courts (\textbf{True})
+\item Hierarchy: Supreme Court $\rightarrow$ High Courts $\rightarrow$ Civil Courts
+\end{itemize}
+\item \textbf{Legislative Process}: National Assembly and Senate (NOT Superior judiciary or three pillars)
+\end{itemize}
+
+\subsection{Court Hierarchy}
+\begin{enumerate}
+\item \textbf{Supreme Court of Pakistan} -- Highest court, constitutional interpretation, final appeals
+\item \textbf{High Courts} (one per province + Islamabad) -- Appeals from lower courts, some original cases
+\item \textbf{District \& Sessions Courts} -- Civil and criminal cases at district level
+\item \textbf{Special Courts/Tribunals} -- Banking courts, taxation, anti-terrorism, cybercrime/PECA courts
+\end{enumerate}
+
+\subsection{Legal System - Key Points for MCQs}
+\begin{itemize}
+\item \textbf{Jurisdiction}: Area covered by single legal system and set of laws (NOT Executive, Legislature, or Torts)
+\item \textbf{Succession}: Falls under Civil Law (NOT Criminal Law, Public Law, or Substantive Law)
+\item \textbf{Civil Courts}: Fall directly under High Courts (True) -- NOT under Supreme Court directly
+\item \textbf{Legislative Process}: National Assembly and Senate (NOT Superior judiciary or three pillars of state)
+\end{itemize}
+
+\section{INTELLECTUAL PROPERTY (Q1: Q6)}
+
+\subsection{IP Types}
+
+\begin{longtable}{p{2.5cm}p{4cm}p{3.5cm}p{4cm}}
+\toprule
+\textbf{Type} & \textbf{Protects} & \textbf{Duration (Pakistan)} & \textbf{Example} \\
+\midrule
+\textbf{Copyright} & Expression (code, UI, docs, media) & Life + 50 years & Software code, documentation \\
+\textbf{Trademark} & Brand identifiers (names, logos) & Renewable & App name, company logo \\
+\textbf{Patent} & New, inventive, industrially applicable inventions & 20 years & Novel technical processes \\
+\textbf{Trade Secret} & Confidential business information & As long as secret kept & Proprietary algorithms, AI models \\
+\bottomrule
+\end{longtable}
+
+\subsection{Key Points}
+\begin{itemize}
+\item \textbf{Trademark and Domain Names}: Trademark can be used as domain name (Yes), but should be used carefully to avoid conflicts
+\item \textbf{Copyright Violation}: Making unauthorized copies of copyrighted software is NOT ethical and NOT legal
+\item \textbf{Planting Viruses}: Planting viruses in someone else's computer is NOT ethical and NOT legal
+\item \textbf{Copyright protects expression, NOT ideas}
+\end{itemize}
+
+\subsection{Protecting a Startup/FYP}
+\begin{itemize}
+\item Use \textbf{copyright} automatically for code and content
+\item Consider \textbf{patent} if truly novel technical solution
+\item Keep some elements as \textbf{trade secrets} (architecture, tuning)
+\item Register \textbf{trademark} early for product/company name and logo
+\end{itemize}
+
+\subsection{Pakistan's IP Framework}
+\begin{itemize}
+\item \textbf{Copyright Ordinance 1962}
+\item \textbf{Patents Ordinance 2000}
+\item \textbf{Trade Marks Ordinance 2001}
+\item \textbf{Registered Designs Ordinance 2000}
+\item Administered by \textbf{IPO-Pakistan}
+\end{itemize}
+
+\subsection{International Protection}
+\begin{itemize}
+\item \textbf{Copyright}: Automatic globally (Berne Convention)
+\item \textbf{Patents}: File in each country or via \textbf{PCT}; no global patent
+\item \textbf{Trademarks}: National filings or \textbf{Madrid Protocol}
+\item \textbf{Trade Secrets}: Protected via contracts and secrecy, not registration
+\end{itemize}
+
+\section{PRIVACY, DATA PROTECTION \& FOI}
+
+\subsection{Core Data Protection Principles}
+\begin{enumerate}
+\item \textbf{Fair \& lawful processing} -- Clear, honest reasons for collection
+\item \textbf{Purpose limitation} -- Use only for stated purposes
+\item \textbf{Data minimization} -- Collect only necessary data
+\item \textbf{Accuracy} -- Keep data correct and updateable
+\item \textbf{Storage limitation} -- Define retention, delete when no longer needed
+\end{enumerate}
+
+\subsection{Security Measures}
+\begin{itemize}
+\item \textbf{Access control}: RBAC, least privilege, MFA
+\item \textbf{Encryption}: HTTPS/TLS in transit; encrypted databases/backups at rest
+\item \textbf{Integrity \& verification}: Hashes, signatures, change logs, audit trails
+\item \textbf{Backup \& recovery}: Regular backups, off-site redundancy, disaster recovery
+\item \textbf{Monitoring \& breach response}: Intrusion detection, anomaly alerts, 72-hour notification
+\end{itemize}
+
+\subsection{GDPR (EU) - Key Rights}
+\begin{itemize}
+\item Informed consent, access, correction, deletion (``right to be forgotten''), portability
+\item \textbf{72-hour breach notification}
+\item Fines: Up to \texteuro{}20M or 4\% of global turnover
+\end{itemize}
+
+\subsection{Other Privacy Laws}
+\begin{itemize}
+\item \textbf{HIPAA (US health)}: Protects PHI (Protected Health Information)
+\item \textbf{CCPA (California)}: Rights to know, delete, opt-out of data selling
+\item \textbf{UAE PDPL / Saudi PDPL}: Strict consent, security, cross-border transfer rules
+\end{itemize}
+
+\subsection{Article 19A \& FOI (Pakistan)}
+\begin{itemize}
+\item \textbf{Article 19A}: Right to access information on matters of public importance
+\item \textbf{FOI/RTI laws}: Citizens can request public records (spending, contracts, policies)
+\item \textbf{Not accessible}: National security/classified info, private citizens' personal data, internal memos
+\end{itemize}
+
+\subsection{Privacy by Design Principles}
+\begin{enumerate}
+\item Build privacy into architecture from start
+\item Default to privacy (opt-in tracking, conservative permissions)
+\item Be transparent (clear notices, easy-to-use privacy settings)
+\item Limit internal access (RBAC, no blanket production access)
+\item Secure data end-to-end (encryption, monitoring, deletion policies)
+\item Test regularly (privacy impact assessments, pen-tests)
+\end{enumerate}
+
+\subsection{Data Mining \& Re-identification}
+\begin{itemize}
+\item \textbf{Data Mining}: ML/statistical analysis for patterns (recommendations, fraud detection)
+\item \textbf{Secondary Use}: Using data for new purposes not originally disclosed $\rightarrow$ often illegal
+\item \textbf{Re-identification}: ``Anonymous'' datasets can be linked to other data to identify individuals (Netflix Prize case)
+\end{itemize}
+
+\part{SUPPORTING TOPICS}
+
+\section{EXAM STRATEGY TIPS}
+
+\subsection{Time Allocation}
+\begin{itemize}
+\item \textbf{Q1 (MCQ)}: $\sim$1 minute per question (25 minutes total)
+\item \textbf{Q2 (Ethical Decision Making)}: $\sim$45 minutes
+\item \textbf{Q3 (Business Structures)}: $\sim$20 minutes
+\item \textbf{Q4 (Short Answers)}: $\sim$20 minutes (4 minutes per question)
+\item \textbf{Q5 (Communication)}: $\sim$15 minutes
+\item \textbf{Q6 (Structure Design)}: $\sim$15 minutes
+\end{itemize}
+
+\subsection{For Q2 (Ethical Decision Making - 25 marks)}
+\begin{enumerate}
+\item \textbf{Read scenario carefully} (5 min) -- underline key facts
+\item \textbf{Step I: Understanding} (10 min) -- 10--15 facts, 4--6 ethical issues, 8--10 stakeholders
+\begin{itemize}
+\item Facts: Number each fact, be neutral and logical
+\item Ethical issues: Why it's an issue, potential/resulting harm
+\item Stakeholders: Directly and indirectly affected parties
+\end{itemize}
+\item \textbf{Step II: Dilemma} (2 min) -- frame clear either/or question
+\begin{itemize}
+\item Format: ``Should [person/entity] [action] or [alternative action]?''
+\end{itemize}
+\item \textbf{Step III: Analysis} (15 min) -- Use ALL THREE frameworks (A--G, 1--5, H--P) for BOTH alternatives
+\begin{itemize}
+\item Consequentialism (A--G): Harm/benefit analysis for both alternatives
+\item Rights and Duties (1--5): Rights, duties, precedence for both alternatives
+\item Deontology (H--P): Respect, universalization for both alternatives
+\end{itemize}
+\item \textbf{Step IV: Decision} (13 min) -- Clear decision, 5--8 implementation steps, stakeholder impacts, 4--6 preventive measures, pivot point
+\begin{itemize}
+\item Reference frameworks (A--G, 1--5, H--P) to justify decision
+\item Show which rights/duties take precedence
+\end{itemize}
+\end{enumerate}
+
+\subsection{Common Mistakes to Avoid}
+\begin{itemize}
+\item Missing facts or stakeholders
+\item Not using all three frameworks
+\item Vague implementation steps
+\item Forgetting to analyze BOTH alternatives
+\item Not justifying which rights/duties take precedence
+\item Skipping the universalization test in Deontology
+\end{itemize}
+
+\subsection{What Gets Full Marks}
+\begin{itemize}
+\item Complete fact list (10+ facts)
+\item All stakeholders identified
+\item All three frameworks used thoroughly
+\item Clear, defensible decision
+\item Specific, actionable implementation steps
+\item Comprehensive stakeholder impact analysis
+\item Multiple preventive measures across categories
+\item Clear pivot point prevention
+\end{itemize}
+
+\subsection{Example Scenario: Qaswa Corporation (E-Mail-Based Effort to Boost Morale)}
+\begin{itemize}
+\item \textbf{Key Elements}: Employee morale, anonymous memo, system security bypass, management response
+\item \textbf{Typical Stakeholders}: Khalid (employee), Maryam (colleague), Shahzeb (director), Qaswa Corporation, other employees, management, board of directors
+\item \textbf{Typical Ethical Issues}: Anonymity, system security bypass, disrespect to management, impact on morale, potential harm to company reputation
+\item \textbf{Typical Dilemma}: Should Shahzeb fire Khalid or take alternative disciplinary action?
+\end{itemize}
+
+\subsection{For Q3 (Business Structures - 15 marks)}
+\begin{itemize}
+\item Define each structure clearly
+\item Compare characteristics side-by-side
+\item Include advantages and disadvantages
+\item Time: $\sim$20 minutes
+\end{itemize}
+
+\subsection{For Q4 (Short Answers - 15 marks)}
+\begin{itemize}
+\item Be concise but complete
+\item 3 marks = 3--4 key points
+\item Provide examples where relevant
+\item Time: $\sim$20 minutes (4 minutes per question)
+\end{itemize}
+
+\subsection{For Q5 (Communication - 10 marks)}
+\begin{itemize}
+\item List multiple reasons/strategies
+\item Be specific and practical
+\item Time: $\sim$15 minutes
+\end{itemize}
+
+\subsection{For Q6 (Structure Design - 10 marks)}
+\begin{itemize}
+\item Analyze the scenario carefully (products, geography, centralized functions)
+\item Identify key factors: strategy, size, technology, environment, geography
+\item Suggest suitable structure (often Matrix or Hybrid for complex scenarios)
+\item Justify your choice with factors
+\item Draw clear organization chart showing reporting relationships
+\item Consider: Product divisions, geographic divisions, centralized departments (Technology, PMO, etc.)
+\item \textbf{For Kangaroo Corp type scenarios}: 
+\begin{itemize}
+\item Product-based divisions (FB, FP, FA)
+\item Geographic sub-offices (country-level operations)
+\item Centralized functions (development, customer services, Technology, PMO)
+\item Matrix structure allows dual reporting (product + geography + function)
+\end{itemize}
+\item Time: $\sim$15 minutes
+\end{itemize}
+
+\section{FINAL PREPARATION CHECKLIST}
+
+\subsection{One Week Before Exam:}
+\begin{itemize}
+\item[$\square$] Review all ethical theories and frameworks
+\item[$\square$] Practice 4-step ethical decision making with scenarios
+\item[$\square$] Memorize business structure definitions and comparisons
+\item[$\square$] Review POLC framework
+\item[$\square$] Study grapevine communication and management strategies
+\item[$\square$] Review legal system of Pakistan
+\item[$\square$] Memorize key definitions (revenue model, value proposition, etc.)
+\end{itemize}
+
+\subsection{Two Days Before Exam:}
+\begin{itemize}
+\item[$\square$] Practice drawing organization charts
+\item[$\square$] Review all MCQ topics
+\item[$\square$] Practice short answer questions
+\item[$\square$] Review case studies
+\end{itemize}
+
+\subsection{Day Before Exam:}
+\begin{itemize}
+\item[$\square$] Quick review of all key definitions
+\item[$\square$] Review 4-step ethical decision making process
+\item[$\square$] Review business structures comparison
+\item[$\square$] Get good sleep!
+\end{itemize}
+
+\subsection{Exam Day:}
+\begin{itemize}
+\item[$\square$] Read all questions first
+\item[$\square$] Allocate time per question
+\item[$\square$] Answer MCQs first (quick points)
+\item[$\square$] Then tackle longer questions
+\item[$\square$] Review answers if time permits
+\end{itemize}
+
+\section{QUICK REFERENCE CHECKLIST}
+
+\subsection{Ethics (Must Know)}
+\begin{itemize}
+\item[$\square$] Utilitarianism: ``Greatest good for greatest number'' -- consequentialist
+\item[$\square$] Deontology: Duty-based, Kant -- focuses on rules/duties
+\item[$\square$] Egoism: Self-interest based (NOT duty-based, NOT altruism)
+\item[$\square$] Hedonism: Pursuit of happiness as highest aim
+\item[$\square$] 4-Step Ethical Decision Making Process (all steps)
+\item[$\square$] Consequentialism, Rights and Duties, Deontology frameworks
+\item[$\square$] Whistleblowers: Make unauthorized disclosures about harmful situations or fraud
+\item[$\square$] Moral principles $\neq$ Law (False that they always align)
+\item[$\square$] Code of conduct objectives (Discipline, Inspiration, Education -- NOT Enforcement)
+\item[$\square$] Ethical theories are NOT formulas but frameworks for analysis
+\item[$\square$] ACM Code: Comprehensive evaluations of systems and impacts required
+\end{itemize}
+
+\subsection{Business Structures (Must Know)}
+\begin{itemize}
+\item[$\square$] Veil of Incorporation definition and purpose
+\item[$\square$] Sole Proprietorship characteristics
+\item[$\square$] Partnership/AOP characteristics
+\item[$\square$] Public Limited Company characteristics and requirements
+\item[$\square$] SMC Pvt. Ltd. characteristics and requirements
+\item[$\square$] Private Limited Company characteristics
+\item[$\square$] Non-compete clause definition
+\item[$\square$] Non-solicitation clause definition
+\end{itemize}
+
+\subsection{Management (Must Know)}
+\begin{itemize}
+\item[$\square$] POLC: Planning, Organizing, Leading, Controlling
+\item[$\square$] Planning: Goals defined and strategy established
+\item[$\square$] Organizing: Resources gathered and tasks arranged
+\item[$\square$] Leading: Motivating and directing people
+\item[$\square$] Controlling: Monitoring performance and making corrections
+\end{itemize}
+
+\subsection{Communication (Must Know)}
+\begin{itemize}
+\item[$\square$] Grapevine communication definition
+\item[$\square$] Why grapevine thrives (4--5 reasons)
+\item[$\square$] How to manage rumors (4--5 strategies)
+\item[$\square$] Communication process model (7 steps)
+\item[$\square$] Channel richness (rich, moderate, lean)
+\item[$\square$] Communication networks (chain, wheel, all-channel, circle)
+\end{itemize}
+
+\subsection{Legal (Must Know)}
+\begin{itemize}
+\item[$\square$] Jurisdiction definition
+\item[$\square$] Succession falls under Civil Law
+\item[$\square$] Civil courts fall under High Courts (True)
+\item[$\square$] Legislative process: National Assembly and Senate
+\item[$\square$] Copyright protects expression, NOT ideas
+\item[$\square$] Trademark can be used as domain name (Yes)
+\item[$\square$] Making unauthorized copies is NOT ethical and NOT legal
+\end{itemize}
+
+\subsection{Business Models (Must Know)}
+\begin{itemize}
+\item[$\square$] Revenue model: Framework for generating income
+\item[$\square$] Value proposition: Promise of value to customer
+\item[$\square$] Business model: Overall approach to creating/delivering/capturing value
+\item[$\square$] Freemium: Free features + premium paid features
+\item[$\square$] SaaS: Subscription-based software
+\item[$\square$] Marketplace: Connects buyers/sellers, earns commission
+\end{itemize}
+
+\subsection{Computer Crimes (Must Know)}
+\begin{itemize}
+\item[$\square$] Computer crime: Tool, target, or storage medium
+\item[$\square$] Collaborative filtering: Form of data mining
+\item[$\square$] Micro targeting: Using data mining for targeting
+\item[$\square$] Business attacks purpose (5 points)
+\item[$\square$] Jurisdiction challenges (5--6 points)
+\item[$\square$] PECA 2016 offence categories and penalties
+\end{itemize}
+
+\subsection{Professional Practices (Must Know)}
+\begin{itemize}
+\item[$\square$] Licensing: Evaluation for profession readiness
+\item[$\square$] Licensing purpose (5 points)
+\item[$\square$] Indemnity: Compensation for loss/damage
+\item[$\square$] Cost-plus vs. Fixed price contracts
+\item[$\square$] Firing employees: Ethical and legal if they don't perform or fail contractual obligations
+\item[$\square$] Unauthorized copying/planting viruses: NOT ethical and NOT legal
+\end{itemize}
+
+\subsection{Organizational Structure (Must Know)}
+\begin{itemize}
+\item[$\square$] Types: Simple, Functional, Divisional, Matrix, Flat, Hierarchical
+\item[$\square$] Elements: Work Specialization, Departmentalization, Chain of Command, Span of Control, Centralization, Formalization
+\item[$\square$] Factors: Strategy, Size, Technology, Environment, Culture, Geography, Legal
+\item[$\square$] How to design and justify structure
+\item[$\square$] Tall vs. Flat organizations
+\end{itemize}
+
+\subsection{Agile (Must Know)}
+\begin{itemize}
+\item[$\square$] Agile Manifesto four values
+\item[$\square$] Scrum roles: Product Owner, Scrum Master, Development Team
+\item[$\square$] Scrum events: Sprint, Sprint Planning, Daily Scrum, Sprint Review, Sprint Retrospective
+\item[$\square$] Scrum artifacts: Product Backlog, Sprint Backlog, Increment
+\item[$\square$] XP practices: TDD, Pair Programming, Continuous Integration
+\item[$\square$] Story points and velocity
+\end{itemize}
+
+\section{KEY FORMULAS/DEFINITIONS TO MEMORIZE}
+
+\subsection{Ethics:}
+\begin{itemize}
+\item \textbf{Utilitarianism} = Greatest good for greatest number (consequentialist)
+\item \textbf{Deontology} = Duty-based, Kant, focus on rules not outcomes
+\item \textbf{Egoism} = Self-interest based
+\item \textbf{Hedonism} = Pursuit of happiness as highest aim
+\item \textbf{Rights \& Duties} = Individual rights + moral duties
+\end{itemize}
+
+\subsection{Business:}
+\begin{itemize}
+\item \textbf{Revenue Model} = Framework for generating income
+\item \textbf{Value Proposition} = Promise of value to customer
+\item \textbf{Business Model} = Overall approach to creating/delivering/capturing value
+\item \textbf{Freemium} = Free features + premium paid features
+\end{itemize}
+
+\subsection{Legal:}
+\begin{itemize}
+\item \textbf{Jurisdiction} = Area covered by single legal system
+\item \textbf{Veil of Incorporation} = Separation of company from owners (limited liability)
+\item \textbf{Copyright} = Protects expression, NOT ideas
+\item \textbf{Patent} = Protects new, inventive, industrially applicable inventions
+\end{itemize}
+
+\subsection{Management:}
+\begin{itemize}
+\item \textbf{POLC} = Planning, Organizing, Leading, Controlling
+\item \textbf{Planning} = Goals defined and strategy established
+\item \textbf{Organizing} = Resources gathered and tasks arranged
+\item \textbf{Leading} = Motivating and directing people
+\item \textbf{Controlling} = Monitoring performance and making corrections
+\end{itemize}
+
+\subsection{Communication:}
+\begin{itemize}
+\item \textbf{Grapevine} = Informal communication network
+\item Thrives due to: Importance, ambiguity, anxiety, information gaps
+\item \textbf{Channel Richness} = Information-carrying capacity (rich, moderate, lean)
+\end{itemize}
+
+\section{EXAM-SPECIFIC ANSWER PATTERNS \& CLARIFICATIONS}
+
+\subsection{MCQ Answer Patterns (Based on Exam Questions)}
+
+\subsubsection{Ethics Questions}
+\begin{itemize}
+\item \textbf{Q2}: Hedonism (pursuit of happiness as highest ethical aim)
+\item \textbf{Q3}: Whistleblowers make unauthorized disclosures about harmful situations or fraud
+\item \textbf{Q4}: Moral principles are NOT always aligned with law (False)
+\item \textbf{Q5}: Statements 1 and 3 are correct (Utilitarianism is consequentialist, Deontology is Kant's theory); Statement 2 is FALSE (Egoism is NOT duty-based)
+\item \textbf{Q7}: Utilitarianism (``greatest good for greatest number'')
+\item \textbf{Q9}: Ethical theories are NOT formulas to solve problems
+\end{itemize}
+
+\subsubsection{Business \& Legal Questions}
+\begin{itemize}
+\item \textbf{Q1}: Revenue model is a framework for generating income (NOT same as business model)
+\item \textbf{Q6}: Trademark can be used as domain name (Yes), but should be used carefully
+\item \textbf{Q8}: Jurisdiction means area covered by single legal system
+\item \textbf{Q13}: Succession falls under Civil Law
+\item \textbf{Q14}: Civil courts fall directly under High Courts (True)
+\item \textbf{Q15}: Legislative process consists of National Assembly and Senate
+\item \textbf{Q16}: Firing employees who don't perform is Ethical and Legal
+\item \textbf{Q19}: Making unauthorized copies/planting viruses is NOT ethical and NOT legal
+\item \textbf{Q20}: Freemium (free features + premium payment)
+\item \textbf{Q21}: Non-compete clause prevents current AND former employees from working for competitors
+\item \textbf{Q22}: Non-solicitation clause prevents encouraging employees AND customers to move
+\item \textbf{Q23}: Licensing is process to evaluate readiness to enter profession
+\item \textbf{Q24}: Value proposition is promise of value to customer (NOT business model or revenue model)
+\item \textbf{Q25}: Management functions: Planning, Organizing, Controlling, Leading
+\end{itemize}
+
+\subsubsection{Data \& Technology Questions}
+\begin{itemize}
+\item \textbf{Q17}: Collaborative filtering is a form of data mining
+\item \textbf{Q18}: Micro targeting uses data mining to determine voters most likely to support candidate
+\end{itemize}
+
+\subsubsection{Code of Conduct Questions}
+\begin{itemize}
+\item \textbf{Q10}: Code of conduct objectives: Discipline, Inspiration, Education (NOT Enforcement)
+\item \textbf{Q11}: ACM code requires comprehensive evaluations of systems and impacts (True)
+\end{itemize}
+
+\vspace{1cm}
+
+\textbf{Good luck with your exam preparation! Focus on understanding concepts rather than just memorizing, especially for the ethical decision-making question.}
+
+\end{document}
