@@ -1174,6 +1174,15 @@ Describes **how an IT product/company creates, delivers, and captures value**:
 
 ---
 
+## Exam Tips (Weeks 12–13)
+- **Q1 MCQs**: Management (POLC), leadership vs. management, conflict styles (TKI), BATNA concept, negotiation stages, grapevine/communication basics, organizational structure types.
+- **Q2 (Ethical Decision Making)**: If a scenario involves team conflict, harassment, or negotiation ethics, use the 4-step model; stakeholders include team, manager, client, HR; apply Consequentialism, Rights/Duties, Deontology.
+- **Timing**: For any short answers (if asked), list 3–4 crisp points (e.g., BATNA definition + why it gives power).
+- **Structures** (link to Q6 style problems): Be ready to recommend matrix/hybrid for cross-functional teams and justify with strategy/technology/size.
+- **Common pitfalls**: Forgetting to mention BATNA; mixing up conflict style names; vague differences between management and leadership; not distinguishing distributive vs. integrative negotiation.
+
+---
+
 ## Key Takeaways - Week 13
 
 1. **Agile** focuses on early delivery, collaboration, and responding to change
@@ -1189,7 +1198,11 @@ Describes **how an IT product/company creates, delivers, and captures value**:
 
 ---
 
-> **Exam/Project Focus**: 
-> - **Week 12**: Understand conflict management styles, negotiation process, BATNA, management vs. leadership, mentorship types and benefits, and how these apply in IT contexts
-> - **Week 13**: Understand Agile principles and practices, Scrum framework, XP practices, major IT industry verticals and their needs, common business models in IT, and Business Model Canvas components
+## Exam Tips (Week 13)
+- **Q1 MCQs**: Agile values/principles, Scrum roles/events/artifacts, XP practices (TDD, pair programming, CI, refactoring), story points/velocity, business model definitions (business model vs. revenue model vs. value proposition), vertical vs. horizontal solutions.
+- **Short answers**: If asked to differentiate business/revenue model/value proposition, keep to one-line definitions from the study guide.
+- **Scenario prep**: For a simple design/organization question, propose an agile approach with sprints, backlog, and demos; justify with “responding to change” and “frequent delivery.”
+- **Pitfalls**: Calling “Agile = no documentation”; confusing Product Owner vs. Scrum Master; skipping Definition of Done; mixing revenue model with business model.
+
+---
 

@@ -96,6 +96,14 @@
 
 ---
 
+### Exam Tips (Week 14)
+- **Q1 MCQs**: Know what jurisdiction means; civil courts under High Courts (true); legislative process = National Assembly + Senate; succession is civil law; trademark vs. domain; unauthorized copying is illegal/unethical.
+- **IP recall**: Copyright protects expression (code/UI/docs/media), not ideas; life + 50 years; trademarks for names/logos; patents need novelty + inventiveness + industrial application (pure software/algorithms often excluded unless technical effect); trade secrets need secrecy.
+- **Law vs. ethics**: Moral principles ≠ law; legality doesn’t guarantee ethicality.
+- **Short answers**: For indemnity, cost-plus vs. fixed price—keep 3–4 crisp points (from study guide).
+
+---
+
 ## Week 15 – Privacy, Data Protection, FOI, Cybercrime & PECA
 
 ### Lecture 21 – Privacy, Data Protection and FOI
@@ -269,11 +277,14 @@
 
 ---
 
-> **Overall Exam/Project Takeaway:**  
-> Week 14 focuses on **legal foundations and IP tools** (copyright, patents, trademarks, trade secrets, treaties),
-> while Week 15 focuses on **data/privacy duties and cybercrime/PECA**. As a developer, you must:  
-> (1) protect your own creations with the right IP mix,  
-> (2) respect users’ privacy and global data‑protection rules, and  
-> (3) design systems that **avoid creating, enabling, or facilitating** cyber offences under PECA and related laws.
+### Exam Tips (Week 15)
+- **Q1 MCQs**: Data mining (pattern analysis), collaborative filtering (recs), micro-targeting (target groups), business attacks purpose, jurisdiction challenges (borderless, extradition, anonymity, crypto, multi-country servers).
+- **Q2 (Ethical Decision Making)**: For privacy/bias/cybercrime scenarios—use the 4-step model; stakeholders include users, org, regulators, society. Apply Consequentialism, Rights/Duties (fairness, privacy), Deontology (universalize? respect persons).
+- **PECA recall**: Tool/target/evidence; major offence buckets (harassment, fraud/forgery/identity, system/data/critical infra); cyber terrorism up to 14 years/50M; criticisms: vague/harsh/overbroad, expression concerns, overlap with other laws.
+- **Privacy principles**: Fair/lawful, purpose limitation, minimization, accuracy, storage limitation; security controls (RBAC, MFA, encryption, logging, IR).
+- **Global laws**: GDPR rights (consent, access, correction, deletion, portability, 72h breaches), CCPA opt-out, HIPAA PHI protections, PDPLs (consent, security, transfers).
+- **FOI/RTI (Art.19A)**: Right to information on public importance, with reasonable restrictions (security, personal data, classified/internal memos).
+
+---
 
 
