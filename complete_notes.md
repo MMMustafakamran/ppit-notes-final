@@ -1139,6 +1139,12 @@ Would I accept this if roles were reversed?
 - ✅ Multiple preventive measures across categories
 - ✅ Clear pivot point prevention
 
+### Example Scenario: Qaswa Corporation (E-Mail-Based Effort to Boost Morale)
+- **Key Elements**: Employee morale, anonymous memo, system security bypass, management response
+- **Typical Stakeholders**: Khalid (employee), Maryam (colleague), Shahzeb (director), Qaswa Corporation, other employees, management, board of directors
+- **Typical Ethical Issues**: Anonymity, system security bypass, disrespect to management, impact on morale, potential harm to company reputation
+- **Typical Dilemma**: Should Shahzeb fire Khalid or take alternative disciplinary action?
+
 ### For Q3 (Business Structures - 15 marks)
 - Define each structure clearly
 - Compare characteristics side-by-side
@@ -1169,6 +1175,38 @@ Would I accept this if roles were reversed?
   - Centralized functions (development, customer services, Technology, PMO)
   - Matrix structure allows dual reporting (product + geography + function)
 - Time: ~15 minutes
+
+---
+
+# 🔥 FINAL PREPARATION CHECKLIST
+
+### One Week Before Exam:
+- [ ] Review all ethical theories and frameworks
+- [ ] Practice 4-step ethical decision making with scenarios
+- [ ] Memorize business structure definitions and comparisons
+- [ ] Review POLC framework
+- [ ] Study grapevine communication and management strategies
+- [ ] Review legal system of Pakistan
+- [ ] Memorize key definitions (revenue model, value proposition, etc.)
+
+### Two Days Before Exam:
+- [ ] Practice drawing organization charts
+- [ ] Review all MCQ topics
+- [ ] Practice short answer questions
+- [ ] Review case studies
+
+### Day Before Exam:
+- [ ] Quick review of all key definitions
+- [ ] Review 4-step ethical decision making process
+- [ ] Review business structures comparison
+- [ ] Get good sleep!
+
+### Exam Day:
+- [ ] Read all questions first
+- [ ] Allocate time per question
+- [ ] Answer MCQs first (quick points)
+- [ ] Then tackle longer questions
+- [ ] Review answers if time permits
 
 ---
 
