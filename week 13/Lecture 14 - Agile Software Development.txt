@@ -1,0 +1,302 @@
+Agile Software Development
+==========================
+
+Introduction
+------------
+Agile Software Development is a family of lightweight, adaptive methods for building software in small, incremental steps, with close collaboration between developers and customers. It emphasizes responding to change over following a rigid plan.
+
+[Image: Typical slide showing a contrast between a rigid “Waterfall” timeline and a looping “Agile” cycle, highlighting iterative delivery and feedback.]
+
+Limitations of Traditional (Waterfall) Development
+--------------------------------------------------
+- Assumes requirements are stable and fully known upfront.
+- Long phases (analysis, design, implementation, testing) with late feedback.
+- Changes are expensive and often discouraged.
+- Working software appears very late in the project.
+- Customers frequently receive something different from what they actually need now.
+
+Motivation for Agile
+--------------------
+- Software projects face changing requirements and evolving understanding.
+- Users learn what they really want only after seeing working software.
+- Businesses need faster time‑to‑market and ability to pivot.
+- Agile aims to:
+  - Deliver value early and often.
+  - Embrace change rather than fight it.
+  - Keep strong collaboration between business and technical people.
+
+
+The Agile Manifesto
+-------------------
+Agile was formalized in the **Agile Manifesto (2001)**, which states that while there is value in the items on the right, we value the items on the left more:
+
+1. **Individuals and interactions** over processes and tools.
+2. **Working software** over comprehensive documentation.
+3. **Customer collaboration** over contract negotiation.
+4. **Responding to change** over following a plan.
+
+Key idea:
+- Agile does not reject processes, tools, documentation, contracts, or plans, but prioritizes human collaboration, usable software, flexibility, and close customer involvement.
+
+Agile Principles (12 Principles – Overview)
+-------------------------------------------
+1. Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+2. Welcome changing requirements, even late in development.
+3. Deliver working software frequently (weeks rather than months).
+4. Business people and developers must work together daily.
+5. Build projects around motivated individuals and trust them.
+6. Face‑to‑face conversation is the most effective way to convey information.
+7. Working software is the primary measure of progress.
+8. Agile processes promote sustainable development (constant pace).
+9. Continuous attention to technical excellence and good design enhances agility.
+10. Simplicity—the art of maximizing the amount of work not done—is essential.
+11. The best architectures, requirements, and designs emerge from self‑organizing teams.
+12. At regular intervals, the team reflects on how to become more effective and adjusts accordingly (retrospectives).
+
+
+Agile vs. Plan‑Driven Approaches
+--------------------------------
+
+Plan‑Driven (e.g., Waterfall):
+------------------------------
+- Big upfront requirements and design.
+- Heavy documentation.
+- Sequential phases; limited ability to go backwards.
+- Change is treated as a problem and often controlled via change requests.
+
+Agile:
+------
+- Incremental and iterative development.
+- Lightweight but sufficient documentation.
+- Short cycles (iterations/sprints) with frequent re‑planning.
+- Change is expected and embraced; backlog can be reprioritized.
+
+When Plan‑Driven May Be Suitable:
+---------------------------------
+- Very stable requirements and long‑lived regulations.
+- Safety‑critical or highly regulated domains (avionics, medical).
+- Projects with strict contractual obligations and documentation requirements.
+
+When Agile Is Especially Useful:
+--------------------------------
+- Requirements are unclear, emerging, or likely to change.
+- Products for fast‑moving markets (web/mobile apps, startups).
+- Close customer access is possible.
+
+
+Agile Practices and Concepts
+----------------------------
+
+Incremental and Iterative Development
+-------------------------------------
+- **Iterative**: repeat cycles, refine the product based on feedback.
+- **Incremental**: each cycle adds new features or improves existing ones.
+- Agile teams deliver working increments of software regularly (e.g., every 1–4 weeks).
+
+User Stories
+------------
+- Short, simple descriptions of a feature from the user’s perspective.
+- Format (common):
+  - “As a **[type of user]**, I want **[some goal]** so that **[some reason/value]**.”
+- Example:
+  - “As a customer, I want to reset my password so that I can regain access if I forget it.”
+- User stories:
+  - Capture who, what, and why.
+  - Are placeholders for conversations between developers and stakeholders.
+
+Backlog and Prioritization
+--------------------------
+- **Product Backlog**: ordered list of all desired work (features, bugs, tech tasks).
+- Backlog items are prioritized by **business value**, risk, and urgency.
+- Developers and product owner collaborate to refine and estimate items.
+
+Timeboxing and Iterations
+-------------------------
+- Work is organized in fixed‑length timeboxes (e.g., 1–2 week sprints).
+- Within each timebox:
+  - Plan what can be completed.
+  - Implement, test, and integrate features.
+  - Demonstrate working software.
+  - Reflect and improve process.
+
+Continuous Integration and Testing
+----------------------------------
+- Merge code changes frequently (many times per day).
+- Automatically run tests (unit, integration) to catch regressions early.
+- Maintain a working, releasable build at almost all times.
+
+Communication and Collaboration
+-------------------------------
+- Daily short meetings (daily stand‑ups).
+- Shared boards (physical or digital) to track work.
+- Close collaboration between developers, QA, UX, and business.
+
+[Image: A Scrum board or Kanban board showing columns like “To Do”, “In Progress”, “Testing”, “Done” with sticky notes representing tasks.]
+
+
+Scrum – A Popular Agile Framework
+---------------------------------
+Scrum is one of the most widely used Agile frameworks. It organizes work in **sprints** and defines specific roles and events.
+
+Scrum Roles
+-----------
+1. Product Owner
+   - Represents the customer/stakeholders.
+   - Owns and prioritizes the product backlog.
+   - Defines the product vision and ensures the team builds the most valuable features first.
+2. Scrum Master
+   - Facilitates the Scrum process.
+   - Helps remove impediments blocking the team.
+   - Coaches the team and organization in Agile/Scrum practices.
+3. Development Team
+   - Cross‑functional (developers, testers, designers, etc.).
+   - Self‑organizing; decides how to do the work.
+   - Responsible for delivering increments of “Done” product every sprint.
+
+Scrum Artifacts
+---------------
+- Product Backlog – ordered list of everything that might be needed in the product.
+- Sprint Backlog – items selected from the product backlog for a sprint, plus a plan.
+- Increment – the sum of all completed work that meets the **Definition of Done**.
+
+Scrum Events (Ceremonies)
+-------------------------
+1. Sprint
+   - Fixed‑length iteration (typically 1–4 weeks).
+   - Produces a potentially shippable increment.
+2. Sprint Planning
+   - Held at the start of each sprint.
+   - Team decides what to deliver (sprint goal and selected backlog items).
+   - Team creates an initial plan for how to achieve the goal.
+3. Daily Scrum (Daily Stand‑up)
+   - Short (usually 15 minutes) daily meeting.
+   - Team synchronizes, discusses progress and impediments.
+4. Sprint Review
+   - Held at the end of the sprint.
+   - Team demonstrates the increment to stakeholders.
+   - Collects feedback to update the backlog.
+5. Sprint Retrospective
+   - Team reflects on process and collaboration.
+   - Identifies what went well, what didn’t, and actions to improve next sprint.
+
+[Image: Scrum cycle diagram – Product Backlog → Sprint Planning → Sprint (with Daily Scrums) → Sprint Review → Retrospective → updated Product Backlog.]
+
+
+Extreme Programming (XP) – Another Agile Method
+-----------------------------------------------
+XP emphasizes engineering practices that support rapid, high‑quality development.
+
+Key XP Practices
+----------------
+- Test‑Driven Development (TDD):
+  - Write tests before writing code.
+  - Red‑Green‑Refactor cycle to keep code clean and well‑tested.
+- Pair Programming:
+  - Two developers work together at one workstation.
+  - One writes code (driver) while the other reviews (navigator); they switch roles frequently.
+- Continuous Integration:
+  - Integrate and build code many times a day with automated tests.
+- Refactoring:
+  - Continuously improve code structure without changing external behavior.
+- Simple Design:
+  - Do the simplest thing that could possibly work now; avoid over‑engineering.
+- Collective Code Ownership:
+  - The team, not individuals, owns the codebase; anyone can improve any part.
+
+
+Agile Estimation and Planning
+-----------------------------
+
+Relative Estimation
+-------------------
+- Instead of estimating in hours, teams often estimate in **story points**.
+- Story points represent relative effort/complexity, not exact time.
+- Teams compare new stories to reference stories to maintain consistency.
+
+Velocity
+--------
+- Velocity is the number of story points completed in a sprint.
+- Used for forecasting how much work the team can complete in future sprints.
+- Velocity stabilizes over time and is unique to each team.
+
+Release Planning
+----------------
+- Use product backlog priorities and team velocity to plan releases.
+- Adjust plans frequently as new information and feedback arrive.
+
+
+Agile Quality and Testing
+-------------------------
+- Testing is integrated throughout development (not just at the end).
+- Practices:
+  - Unit tests and TDD.
+  - Automated regression tests.
+  - Continuous integration pipelines.
+  - Exploratory testing and user acceptance testing.
+- Quality is a shared team responsibility, not just the QA team’s.
+
+
+Agile in Practice – Benefits and Challenges
+-------------------------------------------
+
+Benefits
+--------
+- Faster delivery of usable features.
+- Early and continuous feedback from customers.
+- Better ability to respond to changes in requirements or market.
+- Increased transparency (burndown charts, boards, frequent demos).
+- Encourages collaboration, learning, and continuous improvement.
+
+Challenges
+----------
+- Requires cultural change and trust between management and teams.
+- Hard to adopt in organizations used to strict control and heavy documentation.
+- Stakeholders may misinterpret “Agile” as “no planning” or “no documentation”.
+- Distributed or remote teams need extra effort for communication.
+- Scaling Agile to very large organizations/projects requires additional frameworks and coordination.
+
+
+Agile at Scale (Brief Overview)
+-------------------------------
+- As organizations grow, multiple Agile teams must coordinate.
+- Common scaling frameworks:
+  - SAFe (Scaled Agile Framework).
+  - LeSS (Large‑Scale Scrum).
+  - Nexus, Scrum@Scale, etc.
+- Shared ideas:
+  - Align teams around common vision and backlogs.
+  - Synchronize planning and cadence.
+  - Maintain autonomy within teams while coordinating across teams.
+
+
+Agile and Documentation
+-----------------------
+- Agile values **working software over comprehensive documentation**, but:
+  - Some documentation is still necessary (architecture decisions, API contracts, user guides).
+  - Focus on documentation that provides real value, not paperwork for its own sake.
+- “Just enough” documentation:
+  - Up‑to‑date, simple, and easy to maintain.
+
+
+Misconceptions About Agile
+--------------------------
+- “Agile means no planning.”  
+  - In reality, Agile plans continuously at different levels (backlog, release, sprint).
+- “Agile means no documentation.”  
+  - Agile emphasizes minimal but useful documents; not zero documentation.
+- “Agile is only for small projects.”  
+  - Agile started on small teams but is now applied to large and complex products.
+
+
+Summary of Agile Values for Developers
+--------------------------------------
+- Work in small, frequent increments and deliver **working software** early.
+- Collaborate closely with customers and teammates.
+- Embrace changing requirements; use feedback to guide development.
+- Maintain high technical quality with tests, refactoring, and clean design.
+- Reflect regularly and continuously improve the process and the product.
+
+End of Lecture 14 – Agile Software Development
+----------------------------------------------
+
+
